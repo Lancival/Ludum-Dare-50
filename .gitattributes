@@ -1,0 +1,2 @@
+# Ignore TextMesh Pro for language statistics
+Assets/Text/TextMesh[[:space:]]Pro/** linguist-vendored
