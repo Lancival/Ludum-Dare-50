@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -23,12 +21,10 @@ public class AudioSettingsHandler : MonoBehaviour
             Debug.LogWarning("Another instance of AudioSettingsHandler already exists.");
             Destroy(this);
         }
-        else
-        {
-            Settings.MasterVolume.onChange += UpdateMasterVolume;
-            Settings.MusicVolume.onChange += UpdateMusicVolume;
-            Settings.SfxVolume.onChange += UpdateSfxVolume;
-        }
+        instance = this;
+        Settings.MasterVolume.onChange += UpdateMasterVolume;
+        Settings.MusicVolume.onChange += UpdateMusicVolume;
+        Settings.SfxVolume.onChange += UpdateSfxVolume;
     }
 
     void Start()
