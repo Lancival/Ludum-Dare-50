@@ -12,12 +12,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField, Range(0f, 100f)] private float maxAcceleration = 35f;
     [SerializeField, Range(0f, 100f)] private float maxAirAcceleration = 20f;
     [SerializeField, Range(0f, 100f)] private float deAcceleration = 20f;
-    
+    [SerializeField, Range(20f, 100f)] private float maxFallSpeed = 40f;
+
     [SerializeField, Range(0f, 10f)] private float jumpHeight = 3f;
     [SerializeField, Range(0f, 5f)] private int maxAirJumps = 0;
     [SerializeField, Range(0f, 5f)] private float downwardMovementMultiplier = 3f;
     [SerializeField, Range(0f, 5f)] private float upwardMovementMultiplier = 3f;
+    [SerializeField, Range(0f, 5f)] private float jumpEarlyMovementModifier = 3f;
     [SerializeField] private float jumpBuffer = 0.1f;
+    
 
     private bool hasBufferedJump_ => onGround && lastJumpPressed_ + jumpBuffer > Time.time;
 
@@ -36,6 +39,8 @@ public class PlayerController : MonoBehaviour
     private bool jumpPressed;
     private bool jumpReleased;
     private float lastJumpPressed_;
+    private bool endedJumpEarly_ = false;
+    
     
 
     public void Awake()
@@ -54,31 +59,13 @@ public class PlayerController : MonoBehaviour
     {   
         onGround = ground.GetOnGround();
         velocity = rb.velocity;
-
-
         if (onGround)
         {
             jumpPhase = 0;
         }
 
-        if (jumpPressed || hasBufferedJump_)
-        {
-            jumpPressed = false;
-            CalculateJump();
-        }
-
-        if (velocity.y > 0)
-        {
-            rb.gravityScale = upwardMovementMultiplier;
-        }
-        else if (velocity.y < 0)
-        {
-            rb.gravityScale = downwardMovementMultiplier;
-        }
-        else if (velocity.y == 0)
-        {
-            rb.gravityScale = defaultGravityScale;
-        }
+        CalculateJump();
+        CalculateGravity();
 
         rb.velocity = velocity;
 
@@ -100,9 +87,11 @@ public class PlayerController : MonoBehaviour
     }
 
     public void CalculateJump()
-    {
-        if (onGround || jumpPhase < maxAirJumps)
+    {   
+        if (jumpPressed && jumpPhase < maxAirJumps || hasBufferedJump_)
         {
+            jumpPressed = false;
+            endedJumpEarly_ = false;
             jumpPhase += 1;
             float jumpSpeed = Mathf.Sqrt(-2f * Physics2D.gravity.y * jumpHeight);
             if (velocity.y > 0f)
@@ -112,8 +101,36 @@ public class PlayerController : MonoBehaviour
             velocity.y += jumpSpeed;
         }
 
-        if (!onGround && jumpReleased)
-        {}
+        if (!onGround && jumpReleased && !endedJumpEarly_ && velocity.y > 0)
+        {
+            endedJumpEarly_ = true;
+            jumpReleased = false;
+        }
+    }
+
+    public void CalculateGravity()
+    {
+        if (velocity.y > 0)
+        {
+            rb.gravityScale = upwardMovementMultiplier;
+        }
+        else if (velocity.y < 0)
+        {
+            rb.gravityScale = downwardMovementMultiplier;
+        }
+        else if (velocity.y == 0)
+        {
+            rb.gravityScale = defaultGravityScale;
+        }
+
+        // Variable jump height
+        if (endedJumpEarly_ && velocity.y > 0)
+        {
+            rb.gravityScale = upwardMovementMultiplier * jumpEarlyMovementModifier;
+        }
+
+        // Clamp fall speed
+        if (velocity.y < -maxFallSpeed) { velocity.y = maxFallSpeed; }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -123,11 +140,12 @@ public class PlayerController : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.started)
         {
             // calculate time for jump buffer
             lastJumpPressed_ = Time.time;
             jumpPressed = true;
+            jumpReleased = false;
         }
         if (context.canceled)
         {
