@@ -117,7 +117,6 @@ public class PlayerController : MonoBehaviour
             impactEffect.Stop();
             impactEffect.transform.position = footsteps.transform.position;
             impactEffect.Play();
-            Debug.Log("Player impact!");
         }
         wasOnGround = onGround;
     }
