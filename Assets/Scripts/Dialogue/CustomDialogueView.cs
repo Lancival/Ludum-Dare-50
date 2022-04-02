@@ -12,28 +12,30 @@ public class CustomDialogueView : DialogueViewBase
 
     [SerializeField] private TextMeshProUGUI textBox;
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private CustomOptionView[] optionViews;
+    public List<CustomOptionView> optionViews;
 
     private Queue<LocalizedLine> pendingLines;
     private Coroutine running = null;
 
-    private static CustomDialogueView instance = null;
+    private static CustomDialogueView _instance = null;
+    public static CustomDialogueView instance => _instance;
 
     void Awake()
     {
-        if (instance != null)
+        if (_instance != null)
         {
             Debug.LogWarning("Another CustomDialogueView component already exists.");
             Destroy(this);
         }
-        instance = this;
+        _instance = this;
         pendingLines = new Queue<LocalizedLine>();
+        optionViews = new List<CustomOptionView>();
     }
 
     void OnDestroy()
     {
-        if (instance == this)
-            instance = null;
+        if (_instance == this)
+            _instance = null;
     }
 
     private void ClearOptions()
@@ -86,10 +88,10 @@ public class CustomDialogueView : DialogueViewBase
     /// <inheritdoc/>
     public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> onOptionSelected)
     {
-        if (dialogueOptions.Length > optionViews.Length)
+        if (dialogueOptions.Length > optionViews.Count)
             Debug.LogError("Number of dialogue options exceeds number of CustomOptionViews!");
 
-        for (int i = 0; i < dialogueOptions.Length && i < optionViews.Length; i++)
+        for (int i = 0; i < dialogueOptions.Length && i < optionViews.Count; i++)
         {
             DialogueOption dialogueOption = dialogueOptions[i];
             CustomOptionView optionView = optionViews[i];

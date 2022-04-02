@@ -1089,9 +1089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 756717389}
   audioSource: {fileID: 756717391}
-  optionViews:
-  - {fileID: 616632281}
-  - {fileID: 622199246}
+  optionViews: []
 --- !u!1 &1595167763
 GameObject:
   m_ObjectHideFlags: 0
