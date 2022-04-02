@@ -30,11 +30,6 @@ public class CustomView : DialogueViewBase
         pendingLines = new Queue<LocalizedLine>();
     }
 
-    void Start()
-    {
-        ClearButtons();
-    }
-
     void OnDestroy()
     {
         if (instance == this)
@@ -43,6 +38,9 @@ public class CustomView : DialogueViewBase
 
     private void ClearButtons()
     {
+
+        Debug.Log("Clearing buttons!");
+
         foreach (Button button in buttons)
         {
             button.onClick.RemoveAllListeners();
