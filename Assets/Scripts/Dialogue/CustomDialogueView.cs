@@ -7,23 +7,23 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 using Yarn.Unity;
 
-public class CustomView : DialogueViewBase
+public class CustomDialogueView : DialogueViewBase
 {
 
     [SerializeField] private TextMeshProUGUI textBox;
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private Button[] buttons;
+    [SerializeField] private CustomOptionView[] optionViews;
 
     private Queue<LocalizedLine> pendingLines;
     private Coroutine running = null;
 
-    private static CustomView instance = null;
+    private static CustomDialogueView instance = null;
 
     void Awake()
     {
         if (instance != null)
         {
-            Debug.LogWarning("Another CustomView component already exists.");
+            Debug.LogWarning("Another CustomDialogueView component already exists.");
             Destroy(this);
         }
         instance = this;
@@ -36,15 +36,12 @@ public class CustomView : DialogueViewBase
             instance = null;
     }
 
-    private void ClearButtons()
+    private void ClearOptions()
     {
-
-        Debug.Log("Clearing buttons!");
-
-        foreach (Button button in buttons)
+        foreach (CustomOptionView option in optionViews)
         {
-            button.onClick.RemoveAllListeners();
-            button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "";
+            option.onOptionChosen.RemoveAllListeners();
+            option.UpdateText("");
         }
     }
 
@@ -89,15 +86,15 @@ public class CustomView : DialogueViewBase
     /// <inheritdoc/>
     public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> onOptionSelected)
     {
-        if (dialogueOptions.Length > buttons.Length)
-            Debug.LogError("Not enough buttons to show options!");
+        if (dialogueOptions.Length > optionViews.Length)
+            Debug.LogError("Number of dialogue options exceeds number of CustomOptionViews!");
 
-        for (int i = 0; i < dialogueOptions.Length && i < buttons.Length; i++)
+        for (int i = 0; i < dialogueOptions.Length && i < optionViews.Length; i++)
         {
-            DialogueOption option = dialogueOptions[i];
-            Button button = buttons[i];
+            DialogueOption dialogueOption = dialogueOptions[i];
+            CustomOptionView optionView = optionViews[i];
 
-            button.onClick.AddListener(() =>
+            optionView.onOptionChosen.AddListener(() =>
                 {
                     // Interrupt currently playing line and clear pending lines
                     if (running != null)
@@ -108,10 +105,10 @@ public class CustomView : DialogueViewBase
                     pendingLines.Clear();
 
                     // Handle dialogue option and clear buttons
-                    onOptionSelected(option.DialogueOptionID);
-                    ClearButtons();
+                    onOptionSelected(dialogueOption.DialogueOptionID);
+                    ClearOptions();
                 });
-            button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = option.Line.TextWithoutCharacterName.Text;
+            optionView.UpdateText(dialogueOption.Line.TextWithoutCharacterName.Text);
         }
     }
 }
