@@ -10,9 +10,21 @@ using Yarn.Unity;
 public class CustomDialogueView : DialogueViewBase
 {
 
-    [SerializeField] private TextMeshProUGUI textBox;
-    [SerializeField] private AudioSource audioSource;
-    public List<CustomOptionView> optionViews;
+    [Header("Audio")]
+        [Tooltip("AudioSource that should play the voiceovers.")]
+        [SerializeField] private AudioSource audioSource;
+
+    [Header("Text")]
+        [Tooltip("TextMeshPro text component that should print the dialogue line.")]
+            [SerializeField] private TextMeshProUGUI dialogueBox;
+        [Tooltip("TextMeshPro text component that should print the character name.")]
+            [SerializeField] private TextMeshProUGUI nameBox;
+        [Tooltip("FadeCanvasGroup component that should fade in and out.")]
+            [SerializeField] private FadeCanvasGroup fade;
+    
+    [Header("Dialogue Options")]
+        [Tooltip("List of CustomOptionViews that will display the dialogue options.")]
+        public List<CustomOptionView> optionViews;
 
     private Queue<LocalizedLine> pendingLines;
     private Coroutine running = null;
@@ -30,12 +42,28 @@ public class CustomDialogueView : DialogueViewBase
         _instance = this;
         pendingLines = new Queue<LocalizedLine>();
         optionViews = new List<CustomOptionView>();
+
+        Settings.Subtitles.onChange += SubtitleVisibilityChange;
     }
 
     void OnDestroy()
     {
         if (_instance == this)
+        {
             _instance = null;
+            Settings.Subtitles.onChange -= SubtitleVisibilityChange;
+        }
+    }
+
+    private void SubtitleVisibilityChange(bool subtitle)
+    {
+        if (running != null)
+        {
+            if (subtitle)
+                fade.FadeIn();
+            else
+                fade.FadeOut();
+        }
     }
 
     private void ClearOptions()
@@ -53,7 +81,8 @@ public class CustomDialogueView : DialogueViewBase
         while (pendingLines.Count > 0)
         {
             LocalizedLine dialogueLine = pendingLines.Dequeue();
-            textBox.text = dialogueLine.TextWithoutCharacterName.Text;
+            dialogueBox.text = dialogueLine.TextWithoutCharacterName.Text;
+            nameBox.text = dialogueLine.CharacterName;
             if (dialogueLine is AudioLocalizedLine)
             {
                 AudioLocalizedLine audioLine = (AudioLocalizedLine) dialogueLine;
@@ -71,6 +100,7 @@ public class CustomDialogueView : DialogueViewBase
             }
         }
         running = null;
+        fade.FadeOut();
         yield break;
     }
 
@@ -80,7 +110,11 @@ public class CustomDialogueView : DialogueViewBase
     {
         pendingLines.Enqueue(dialogueLine);
         if (running == null)
+        {
+            if (Settings.Subtitles.Value)
+                fade.FadeIn();
             running = StartCoroutine(RunPendingLines());
+        }
         onDialogueLineFinished?.Invoke();
     }
 

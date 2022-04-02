@@ -1,9 +1,9 @@
 ﻿title: Start
 tags:
 ---
-Line 0 #line:09ea3fa 
-Hello World #line:0bb150d 
+Narrator: Line 0 #line:09ea3fa 
+Apple: Hello World #line:0bb150d 
 -> Say hello. #line:0291e9a 
 -> Say nothing. #line:0328c7b 
-This is the second line. #line:05b5975 
+Banana: This is the second line. #line:05b5975 
 ===
