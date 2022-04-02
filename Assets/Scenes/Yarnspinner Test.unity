@@ -690,6 +690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1892810249}
+  registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
       m_Calls: []
@@ -840,6 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 345948292}
+  registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
       m_Calls: []

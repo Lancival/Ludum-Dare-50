@@ -5,10 +5,19 @@ using TMPro;
 public class CustomOptionView : MonoBehaviour
 {
 
-    [SerializeField] private TextMeshProUGUI textMesh;
+    [Tooltip("TextMeshPro Text component that should show the text of the dialogue option.")]
+        [SerializeField] private TextMeshProUGUI textMesh;
+    [Tooltip("Whether this CustomOptionView should register itself with the CustomDialogueView at the start of the scene.")]
+        [SerializeField] private bool registerOnStart = true;
+
+    [Tooltip("Event which is invoked when this option is chosen.")]
     public UnityEvent onOptionChosen;
 
-    public void Start() => Register();
+    public void Start()
+    {
+        if (registerOnStart)
+            Register();
+    }
     public void OnDestroy() => UnRegister();
 
     public void Register()
