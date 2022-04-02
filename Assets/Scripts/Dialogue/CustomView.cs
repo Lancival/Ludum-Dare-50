@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -10,6 +12,10 @@ public class CustomView : DialogueViewBase
 
     [SerializeField] private TextMeshProUGUI textBox;
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private Button[] buttons;
+
+    private Queue<LocalizedLine> pendingLines;
+    private Coroutine running = null;
 
     private static CustomView instance = null;
 
@@ -21,6 +27,12 @@ public class CustomView : DialogueViewBase
             Destroy(this);
         }
         instance = this;
+        pendingLines = new Queue<LocalizedLine>();
+    }
+
+    void Start()
+    {
+        ClearButtons();
     }
 
     void OnDestroy()
@@ -29,34 +41,79 @@ public class CustomView : DialogueViewBase
             instance = null;
     }
 
-    // Output line to TextMeshPro text component instantaneously
-    /// <inheritdoc/>
-    public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
+    private void ClearButtons()
     {
-        textBox.text = dialogueLine.TextWithoutCharacterName.Text;
-        if (dialogueLine is AudioLocalizedLine)
+        foreach (Button button in buttons)
         {
-            AudioLocalizedLine audioLine = (AudioLocalizedLine) dialogueLine;
-            AudioClip clip = audioLine.AudioClip;
-            if (clip != null)
-                audioSource.PlayOneShot(clip);
-            else
-                Debug.LogWarning("No AudioClip was provided for this line.");
+            button.onClick.RemoveAllListeners();
+            button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "";
         }
     }
 
-    // Wait for user to advance dialogue, then interrupt the current line to end it
-    /// <inheritdoc/>
-    public override void UserRequestedViewAdvancement()
+    // Run through the queued lines, outputting them to text and audio
+    private IEnumerator RunPendingLines()
     {
-        audioSource.Stop();
-        requestInterrupt?.Invoke();
+        while (pendingLines.Count > 0)
+        {
+            LocalizedLine dialogueLine = pendingLines.Dequeue();
+            textBox.text = dialogueLine.TextWithoutCharacterName.Text;
+            if (dialogueLine is AudioLocalizedLine)
+            {
+                AudioLocalizedLine audioLine = (AudioLocalizedLine) dialogueLine;
+                AudioClip clip = audioLine.AudioClip;
+                if (clip != null)
+                {
+                    audioSource.PlayOneShot(clip);
+                    yield return new WaitForSeconds(clip.length);
+                }
+                else
+                {
+                    Debug.LogWarning("No AudioClip was provided for this line.");
+                    yield return new WaitForSeconds(3f);
+                }
+            }
+        }
+        running = null;
+        yield break;
     }
 
-    // End the current line
+    // Add lines to the queue and immediately continue until options are encountered. Start playing lines if they aren't playing already.
     /// <inheritdoc/>
-    public override void InterruptLine(LocalizedLine dialogueLine, Action onInterruptLineFinished)
+    public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
-        onInterruptLineFinished?.Invoke();
+        pendingLines.Enqueue(dialogueLine);
+        if (running == null)
+            running = StartCoroutine(RunPendingLines());
+        onDialogueLineFinished?.Invoke();
+    }
+
+    // Handle Options
+    /// <inheritdoc/>
+    public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> onOptionSelected)
+    {
+        if (dialogueOptions.Length > buttons.Length)
+            Debug.LogError("Not enough buttons to show options!");
+
+        for (int i = 0; i < dialogueOptions.Length && i < buttons.Length; i++)
+        {
+            DialogueOption option = dialogueOptions[i];
+            Button button = buttons[i];
+
+            button.onClick.AddListener(() =>
+                {
+                    // Interrupt currently playing line and clear pending lines
+                    if (running != null)
+                    {
+                        StopCoroutine(running);
+                        running = null;
+                    }
+                    pendingLines.Clear();
+
+                    // Handle dialogue option and clear buttons
+                    onOptionSelected(option.DialogueOptionID);
+                    ClearButtons();
+                });
+            button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = option.Line.TextWithoutCharacterName.Text;
+        }
     }
 }
