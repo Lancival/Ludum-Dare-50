@@ -24,6 +24,12 @@ public class PlayerController : MonoBehaviour
 
     private bool hasBufferedJump_ => onGround && lastJumpPressed_ + jumpBuffer > Time.time;
 
+    private float timeLeftGrounded;
+    private bool firstGroundCheck = false;
+    private bool coyoteUsable;
+    [SerializeField] private float coyoteTimeThreshold = 0.1f;
+    private bool CanUseCoyote => coyoteUsable && !onGround && timeLeftGrounded + coyoteTimeThreshold > Time.time;
+
     private float defaultGravityScale = 1f;
 
     private float maxSpeedChange;
@@ -58,12 +64,22 @@ public class PlayerController : MonoBehaviour
     public void FixedUpdate()
     {   
         onGround = ground.GetOnGround();
-        velocity = rb.velocity;
-        if (onGround)
+        // Need to detect time when first left the ground
+        if (!onGround)
         {
+            if (!firstGroundCheck)
+            {
+                timeLeftGrounded = Time.time;
+                coyoteUsable = true;
+                firstGroundCheck = !firstGroundCheck;
+            }
+        }
+        else 
+        {
+            firstGroundCheck = !firstGroundCheck;
             jumpPhase = 0;
         }
-
+        velocity = rb.velocity;
         CalculateJump();
         CalculateGravity();
 
@@ -88,8 +104,9 @@ public class PlayerController : MonoBehaviour
 
     public void CalculateJump()
     {   
-        if (jumpPressed && jumpPhase < maxAirJumps || hasBufferedJump_)
+        if (jumpPressed && jumpPhase < maxAirJumps && CanUseCoyote || hasBufferedJump_)
         {
+            coyoteUsable = false;
             jumpPressed = false;
             endedJumpEarly_ = false;
             jumpPhase += 1;
