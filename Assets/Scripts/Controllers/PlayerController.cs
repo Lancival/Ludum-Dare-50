@@ -5,6 +5,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {   
+
+    public ParticleSystem footsteps;
+    private ParticleSystem.EmissionModule footEmission;
+    [SerializeField] private float footstepsEmissionRate = 35f;
+
+    public ParticleSystem impactEffect;
+    private bool wasOnGround;
+
     private Rigidbody2D rb;
     private Ground ground;
 
@@ -53,6 +61,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         ground = GetComponent<Ground>();
+        footEmission = footsteps.emission;
     }
 
     public void Update()
@@ -90,16 +99,27 @@ public class PlayerController : MonoBehaviour
             acceleration = onGround ? maxAcceleration : maxAirAcceleration;
             maxSpeedChange = acceleration * Time.deltaTime;
             velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity_.x, maxSpeedChange);
-
+            footEmission.rateOverTime = footstepsEmissionRate;
             rb.velocity = velocity;
         }
         else
         {
+            footEmission.rateOverTime = 0f;
             // no input so we slow the character down to avoid 'sliding'
             velocity.x = Mathf.MoveTowards(velocity.x, 0, deAcceleration * Time.deltaTime);
             // keep the vertical speed the same
             rb.velocity = new Vector2(velocity.x, rb.velocity.y);
         }
+
+        if (!wasOnGround && onGround)
+        {
+            impactEffect.gameObject.SetActive(true);
+            impactEffect.Stop();
+            impactEffect.transform.position = footsteps.transform.position;
+            impactEffect.Play();
+            Debug.Log("Player impact!");
+        }
+        wasOnGround = onGround;
     }
 
     public void CalculateJump()
