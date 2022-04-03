@@ -130,7 +130,7 @@ Julia: Buddy is here! Do you guys want to see my dog? #line:J100
     Julia: Buddy is offended, by the way. #line:J103
 ->Player:Who's a good boy? #line:Pl104
     Megan: He's so cute! #line:M105
-    Caroline: Awwww #line:C106
+    Caroline: Awwww... #line:C106
     Richard: Guys? The game? #line:R107
     Megan: Right, the game. #line:M108
 
@@ -184,7 +184,7 @@ Emily: I don't see why we can't just use that idea. #line:E139
 
 Richard: What tags are we even going to add to our game on itch.io? Visual novel, romance, horror, dating sim, singleplayer- #line:R147
 Emily: What if we made it co-op? #line:E148
-Richard: But it's a visual novel! How would that even work #line:R149
+Richard: But it's a visual novel! How would that even work? #line:R149
 Caroline: Since it has murder, what about a fan that becomes a bunch of daggers when you open it? Like a hidden weapon? #line:C150
 <<art fan>>
 Richard: You know what? Sure. And let's add chess while we're at it too. #line:R151
