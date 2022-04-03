@@ -182,6 +182,7 @@ public class CustomDialogueView : DialogueViewBase
                     onOptionSelected(dialogueOption.DialogueOptionID);
                 });
             optionView.UpdateText(dialogueOption.Line.TextWithoutCharacterName.Text);
+            optionView.onInitialize.Invoke();
         }
     }
 }

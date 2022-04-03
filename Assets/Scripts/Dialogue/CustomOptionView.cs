@@ -10,8 +10,12 @@ public class CustomOptionView : MonoBehaviour
     [Tooltip("Whether this CustomOptionView should register itself with the CustomDialogueView at the start of the scene.")]
         [SerializeField] private bool registerOnStart = true;
 
-    [Tooltip("Event which is invoked when this option is chosen.")]
-    public UnityEvent onOptionChosen;
+    [Header("Events")]
+        [Tooltip("Event which is invoked when this option is chosen.")]
+            public UnityEvent onOptionChosen;
+        [Tooltip("Event which is invoked when this option is initialized.")]
+            public UnityEvent onInitialize;
+
 
     public void Awake()
     {
