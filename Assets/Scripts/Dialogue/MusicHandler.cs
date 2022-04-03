@@ -14,6 +14,7 @@ public class MusicHandler : MonoBehaviour
     private int playing = -1;
 
     [SerializeField] private AudioClip[] clips;
+    [SerializeField] private float duration = 1.0f;
 
     void Awake()
     {
@@ -57,19 +58,19 @@ public class MusicHandler : MonoBehaviour
             if (playing == -1)
             {
                 sources[0].clip = clip;
-                StartCoroutine(AudioUtility.PlayAndFadeInAudioSource(sources[0], 1f, 1f));
+                StartCoroutine(AudioUtility.PlayAndFadeInAudioSource(sources[0], 1f, duration));
                 playing = 0;
             }
             else if (playing == 0)
             {
                 sources[1].clip = clip;
-                StartCoroutine(AudioUtility.CrossfadeAudioSourcesWithPlayAndStop(sources[1], 1f, sources[0], 1f));
+                StartCoroutine(AudioUtility.CrossfadeAudioSourcesWithPlayAndStop(sources[1], 1f, sources[0], duration));
                 playing = 1;
             }
             else
             {
                 sources[0].clip = clip;
-                StartCoroutine(AudioUtility.CrossfadeAudioSourcesWithPlayAndStop(sources[0], 1f, sources[1], 1f));
+                StartCoroutine(AudioUtility.CrossfadeAudioSourcesWithPlayAndStop(sources[0], 1f, sources[1], duration));
                 playing = 0;
             }
         }

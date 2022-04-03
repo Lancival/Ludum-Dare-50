@@ -29,6 +29,7 @@ public class CustomDialogueView : DialogueViewBase
             public List<CustomOptionView> optionViews = new List<CustomOptionView>();
 
     private Queue<LocalizedLine> pendingLines;
+    private List<CustomOptionView> usedOptionViews;
     private Coroutine running = null;
 
     private static CustomDialogueView _instance = null;
@@ -152,11 +153,13 @@ public class CustomDialogueView : DialogueViewBase
         if (dialogueOptions.Length > optionViews.Count)
             Debug.LogError("Number of dialogue options exceeds number of CustomOptionViews!");
 
+        usedOptionViews = new List<CustomOptionView>();
         for (int i = 0; i < dialogueOptions.Length && i < optionViews.Count; i++)
         {
             DialogueOption dialogueOption = dialogueOptions[i];
             CustomOptionView optionView = optionViews[i];
 
+            usedOptionViews.Add(optionView);
             optionView.onOptionChosen.AddListener(() =>
                 {
                     // Interrupt currently playing line and clear pending lines
@@ -168,11 +171,18 @@ public class CustomDialogueView : DialogueViewBase
                     }
                     pendingLines.Clear();
 
+                    foreach (CustomOptionView usedView in usedOptionViews)
+                    {
+                        usedView.UnRegister();
+                        usedView.onOptionChosen.RemoveAllListeners();
+                        usedView.UpdateText("");
+                    }
+
                     // Handle dialogue option and clear buttons
                     onOptionSelected(dialogueOption.DialogueOptionID);
-                    ClearOptions();
                 });
             optionView.UpdateText(dialogueOption.Line.TextWithoutCharacterName.Text);
+            optionView.onInitialize.Invoke();
         }
     }
 }

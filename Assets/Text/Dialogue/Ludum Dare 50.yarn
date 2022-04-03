@@ -12,6 +12,7 @@ Ben: I'm just here to do audio. I don't care for the pronunciation either. #line
 Peter: We have two votes for Dare, two votes for Dar-ay. #line:P9
 Caroline: Hey, <b>YOU</b>! Which one is it? Dare or Dar-ay? #line:C10
 
+<<customWait 0>>
 ->Player: Dare #line:Pl11
     Richard: The truth prevails. #line:R12
     Emily: You know what? I don't care what you think. I'm still going with Dar-ay. Dar-ay, dar-ay, dar-ay. #line:E13
@@ -37,6 +38,7 @@ Richard: I'm good with that. The artists can draw cute baked goods, and it could
 Ben: I can create bakery ambiance for audio? #line:B30
 Peter: What do you think? #line:P31
 
+<<customWait 0>>
 ->Player: RABBITS ARE COOL AS HECK. #line:Pl32
     Megan: Heck ya! Let's do it! #line:M33
     Caroline: Yay! And the rabbits can wear little outfits too! #line:C34
@@ -68,6 +70,7 @@ Peter: I like that. #line:P52
 Richard: Again, I don't know if I want to make another cooking game. #line:R53
 Megan: Now that I'm thinking about it, we could include other animals too as customers! Like fish! Thoughts? #line:M54
 
+<<customWait 0>>
 ->Player: Sure? #line:Pl55
 ->Player: Yeah, why not just add every animal known to man at this point? #line:Pl57
 
@@ -89,6 +92,7 @@ Julia: Oh. #line:J69
 Richard: You don't like it? #line:R70
 Julia: I thought we were going to make a horror game. #line:J71
 
+<<customWait 0>>
 ->Player: A horror game about killer rabbits. #line:Pl72
     Emily: That would make our game unique. #line:E73
     Richard: But being unique isn't a Ludum Dare category! #line:R74
@@ -108,6 +112,7 @@ Emily: I can write a super scary story. I'm thinking unrequited love between rab
 Peter: At this point, I'm not even going to interject. Do whatever you're going to do, Emily. #line:P85
 Richard: What's even the core gameplay loop of this idea? The mechanics? Anyone? #line:R86
 
+<<customWait 0>>
 ->Player:This isn't even a game. #line:Pl87
     Richard: Thank you! This is just a bunch of sprites on the screen. #line:R88
 ->Player:This is definitely a game. #line:Pl89
@@ -125,12 +130,13 @@ Caroline: The game can have jumpscares! People love that in horror games, right?
 Richard: Sure, but the gameplay? #line:R99
 Julia: Buddy is here! Do you guys want to see my dog? #line:J100
 
+<<customWait 0>>
 ->Player:We're never going to finish this game. #line:Pl101
     Richard: That's what I'm saying! Can we focus for once? #line:R102
     Julia: Buddy is offended, by the way. #line:J103
 ->Player:Who's a good boy? #line:Pl104
     Megan: He's so cute! #line:M105
-    Caroline: Awwww #line:C106
+    Caroline: Awwww... #line:C106
     Richard: Guys? The game? #line:R107
     Megan: Right, the game. #line:M108
 
@@ -151,6 +157,7 @@ Richard: What about the game!? #line:R120
 Julia: I'm going to head out. Bye guys! #line:J121
 Everyone: Bye, Julia! #line:Ev122
 
+<<customWait 0>>
 ->Player: What if we made our game an open world MMO? #line:Pl123
     Caroline: Ooh, like World of Warcraft, I love it. #line:C124
 ->Player: What if we made a roguelike action dungeon crawler? #line:Pl125
@@ -174,6 +181,7 @@ Emily: What if we subverted the typical visual novel tropes? What if our game in
 Peter: THAT'S JUST <b>DOKI DOKI LITERATURE CLUB</b>! And, spoilers much? #line:P138
 Emily: I don't see why we can't just use that idea. #line:E139
 
+<<customWait 0>>
 ->Player: This is really coming together. #line:Pl140
     Emily: That's the spirit! #line:E141
     Caroline: I'm just down for anything. #line:C142
@@ -184,7 +192,7 @@ Emily: I don't see why we can't just use that idea. #line:E139
 
 Richard: What tags are we even going to add to our game on itch.io? Visual novel, romance, horror, dating sim, singleplayer- #line:R147
 Emily: What if we made it co-op? #line:E148
-Richard: But it's a visual novel! How would that even work #line:R149
+Richard: But it's a visual novel! How would that even work? #line:R149
 Caroline: Since it has murder, what about a fan that becomes a bunch of daggers when you open it? Like a hidden weapon? #line:C150
 <<art fan>>
 Richard: You know what? Sure. And let's add chess while we're at it too. #line:R151
@@ -198,6 +206,7 @@ Megan: Same. #line:M157
 Ben: Count me in. #line:B158
 Richard: Sure. #line:R159
 
+<<customWait 0>>
 ->Player: I'll voice act. #line:Pl160
     Peter: Don't you think that'll be weird? #line:P161
     Richard: Our game is already inconsistent. #line:R162
@@ -216,6 +225,7 @@ Emily: Who would think this is funny? #line:E172
 Megan: I just added the cover image. #line:M173
 Emily: Ready? #line:E174
 
+<<customWait 0>>
 ->Player: I... guess? #line:Pl175
     Emily: We did it! #line:E176
 ->Player: Not really, but okay. #line:Pl177
