@@ -129,7 +129,7 @@ public class PlayerController : MonoBehaviour
     {   
         if (jumpPressed && jumpPhase < maxAirJumps && CanUseCoyote || hasBufferedJump_)
         {
-            audioSource.PlayOneShot(jumpSound, 0.6f);
+            audioSource.PlayOneShot(jumpSound, 0.3f);
             coyoteUsable = false;
             jumpPressed = false;
             endedJumpEarly_ = false;
