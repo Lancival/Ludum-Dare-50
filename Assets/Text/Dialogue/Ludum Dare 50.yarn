@@ -4,75 +4,82 @@ position: 0,0.5
 Emily: Okay, guys. We have three days to make a game for Ludum Dar-ay. What should we make? #line:E1
 Caroline:  I thought it was pronounced Ludum Dare. #line:C2
 Peter: Someone told me it’s Dar-ay. #line:P3
-Richard: Have any of you even watched the Ludum DARE 50 keynote? Mike clearly says it’s Dare! #line:R4
+Richard: Have any of you even watched the Ludum Dare 50 keynote? Mike clearly says it’s <b>Dare</b>! #line:R4
 Emily: It doesn't matter. Ludum Dar-ay is clearly the superior pronunciation. #line:E5
 Richard: But it’s not right. #line:R6
-Megan: Guys, let’s focus. Who cares if it’s Ludum DARE or DAR-AY? #line:M7
-Ben: I'm just here to do audio. I don't care for the pronounciation either. #line:B8
-Peter: We have 2 votes for Dare, two votes for Dar-ay. #line:P9
-Caroline: Hey, YOU! Which one is it? Dare or Dar-ay? #line:C10
+Megan: Guys, let’s focus. Who cares if it’s Ludum <b>Dare</b> or <b>Dar-ay</b>? #line:M7
+Ben: I'm just here to do audio. I don't care for the pronunciation either. #line:B8
+Peter: We have two votes for Dare, two votes for Dar-ay. #line:P9
+Caroline: Hey, <b>YOU</b>! Which one is it? Dare or Dar-ay? #line:C10
 
 ->Player: Dare #line:Pl11
     Richard: The truth prevails. #line:12
     Emily: You know what? I don't care what you think. I'm still going with Dar-ay. Dar-ay, dar-ay, dar-ay. #line:E13
-    Megan: Can we just get back on track? #line:M14
 ->Player: Dar-ay #line:Pl15
     Peter: See? I knew it was a good idea to add you to the team. #line:P16
     Richard: But...Mike said... #line:R17
-    Megan: Can we just get back on track? #line:M18
 
-Richard: Okay fine, What kind of game do you want to make for this game jam? #line:R19
+Megan: Can we just get back on track? #line:M18
+Richard: Okay fine, what kind of game do you want to make for this game jam? #line:R19
 Caroline: I guess I'm okay with anything. #line:2C0
 Ben: I'm okay with anything too. #line:B21
 Megan: Same. #line:M22
 Peter: ...Well, the theme is delay the inevitable. #line:P23
 Emily: What about a game where you're perpetually single and you try to find a partner, but they all reject you and you die single? Delaying the inevitable of being forever alone. Like an anti-dating sim? Anyone? #line:E24
+<<wait 3>>
 Peter: I don't think anyone wants to play a sim of your life, Emily. I'm sorry. #line:P25
 Emily: O-okay, I guess... #line:E26
 Caroline: I just want to make a game about food. Like a bakery! #line:C27
 Megan: And rabbits! What if rabbits are the bakery employees? #line:M28
+<<style cuteBakery>>
 Richard: I'm good with that. Artists can draw cute baked goods, and it could increase our graphics rating. #line:R29
+<<music songBakery>>
 Ben: I can create bakery ambiance for audio? #line:B30
 Peter: What do you think? #line:P31
 
 ->Player: RABBITS ARE COOL AS HECK. #line:Pl32
     Megan: Heck ya! Let's do it! #line:M33
     Caroline: Yay! And the rabbits can wear little outfits too! #line:C34
+    <<art bunny>>
     Richard: What would the gameplay be though? #line:R35
 ->Player: This is some girly BS. #line:Pl36
-    Caroline: B-but...rabbits...and cupcakes... #line:C37
+    Caroline: B-but... rabbits... and cupcakes... #line:C37
     Ben: Hey, you upset Caroline. #line:B38
     Richard: Not cool... #line:R39
-    Megan: Er, I think we should just go with the rabbit idea. If that's okay with...most of us? #line:M40
+    Megan: Er, I think we should just go with the rabbit idea. If that's okay with... most of us? #line:M40
+    <<art bunny>>
     Richard: I'm okay with rabbits, but what would the gameplay be though? #line:R41
 
+<<wait 3>>
 Peter: Uh, I don't really know. #line:P42
 Caroline: ...I just wanted to draw cute rabbits. #line:C43
 Richard: To be honest, I'm not sure I want to make another cooking game after we made A Taste of the Past, the game we made for Ludum Dare 48 and is now free on Steam with a 96% positive rating. #line:R44
+<<art atotp>>
 Emily: I GOT IT! What if we made a game where players create and break various kinds of blocks in a three dimensional world? A sandbox game with procedural generation where you can kill monsters too? #line:E45
-Peter: Emily, you mean MINECRAFT? #line:P46
+Peter: Emily, you mean <b>Minecraft</b>? #line:P46
 Emily: Yes, a game just like that! #line:E47
 Peter: How does that have to do with rabbits and baking? #line:P48
 Emily: Doesn't Minecraft have rabbits? #line:E49
-Richard: I don't want Minecraft to sue us...wouldn't that be copyright infringement? #line:R50
+Richard: I don't want Microsoft to sue us... wouldn't that be copyright infringement? #line:R50
 Ben: How about a management game? You have to manage production of the baked goods with your customers' orders. #line:B51
 Peter: I like that. #line:P52
 Richard: I don't know if I want to make another cooking game. #line:R53
 Megan: Now that I'm thinking about it, we could include other animals too as customers! Like fish! Thoughts? #line:M54
 
 ->Player: Sure? #line:Pl55
-    Richard: Er, why are the fish pixel art? #line:R56
-->Player: Yeah, why not just add ever animal known to man at this point? #line:Pl57
-    Richard: Er, why are the fish pixel art? #line:R58
+->Player: Yeah, why not just add every animal known to man at this point? #line:Pl57
 
+Richard: Er, why are the fish pixel art? #line:R58
 Megan: I guess we never did talk about art style... #line:M59
 Caroline: I just finished this background drawing we can use. The fish can come from the stream in the background. #line:C60
+<<art bgBakery>>
 Peter: Caroline, this looks really nice. Let's use it. #line:P61
 Ben: I'm really digging this. The pinks in the background would match perfectly with a strawberry farm for the bakery. #line:B62
 Megan: Maybe part of the game is harvesting the strawberries? I can add farm tools! #line:M63
-Emily: I GOT IT! An open-ended country-life RPG about interiting your grandfather's old farm plot. Armed with hand-me down tools and a few coins- #line:E64
-Peter: You mean STARDEW VALLEY? #line:P65
-Emily: Oh, yeah. That *does* kind of remind of Stardew Valley. #line:E66
+<<art farmtools>>
+Emily: I GOT IT! An open-ended country-life RPG about inheriting your grandfather's old farm plot. Armed with hand-me down tools and a few coins- #line:E64
+Peter: You mean <b>Stardew Valley</b>? #line:P65
+Emily: Oh, yeah. That <i>does</i> kind of remind me of Stardew Valley. #line:E66
 Julia: Hey guys! Just came back from work. What did I miss? #line:J67
 Richard: We're making a management game about rabbits who work at a bakery. #line:J68
 Julia: Oh. #line:J69
@@ -83,23 +90,25 @@ Julia: I thought we were going to make a horror game. #line:J71
     Emily: That would make our game unique. #line:E73
     Richard: But being unique isn't a Ludum Dare category! #line:R74
     Emily: I say let's do it. #line:E75
-    Ben: I haven't made scary music before. I could give it a try? #line:B76
-->Player: How does this even have to do with the theme? #line:Pl77
-    Emily: Delaying the invevitable horrific rabbit deaths? #line:E78
+->Player: What does this even have to do with the theme? #line:Pl77
+    Emily: Delaying the inevitable horrific rabbit deaths? #line:E78
     Richard: I'm not sure this is a feasible idea for three days. #line:R79
-    Ben: If we were to do a horror game, I haven't made scary music before. I could give it a try? #line:B80
-
+   
+<<music songHorror>>
+Ben: I haven't made scary music before. I could give it a try? #line:B80
 Richard: So now we're just doing a horror game? #line:R81
+<<style horrorScary>>
 Megan: It could be a haunted bakery? So we can still keep the same art assets? #line:M82
 Caroline: I can draw a spooky background. #line:C83
+<<art bgDarkClassroom>>
 Emily: I can write a super scary story. I'm thinking unrequited love between rabbits = a murder spree? #line:E84
-Peter: At this point, I'm not even going to interject. Do whatever you're going to do, Emily #line:P85
+Peter: At this point, I'm not even going to interject. Do whatever you're going to do, Emily. #line:P85
 Richard: What's the core gameplay loop of this idea? The mechanics? Anyone? #line:R86
 
 ->Player:This isn't even a game. #line:Pl87
-    Richard: Thank you! We just have a bunch of assets on the screen. #line:R88
+    Richard: Thank you! This is just a bunch of sprites on the screen. #line:R88
 ->Player:This is definitely a game. #line:Pl89
-    Richard: But it's just art assets on a screen! #line:R90
+    Richard: But it's just a bunch of sprites on a screen! #line:R90
 
 Emily: Who are we to define what is a game? Why don't we leave that up to the Ludum Dar-ay community? #line:E91
 Caroline: Dare. #line:C92
@@ -109,6 +118,7 @@ Emily: What about a platformer? #line:E95
 Everyone: NO EMILY/THAT'S THE WORST IDEA YOU'VE HAD/I HATE THAT #line:Ev96
 Emily: It was just a suggestion... #line:E97
 Caroline: The game can have jumpscares! People love that in horror games, right? #line:C98
+<<art bgJumpscare>>
 Richard: Sure, but the gameplay? #line:R99
 Julia: Buddy is here! Do you guys want to see my dog? #line:J100
 
@@ -122,6 +132,8 @@ Julia: Buddy is here! Do you guys want to see my dog? #line:J100
     Megan: Right, the game. #line:M108
 
 Julia: I did draw some knives we could use for this idea.  #line:J109
+<<art knife1>>
+<<art knife2>>
 Megan: You know what? This is really coming together. #line:M110
 Peter: If we can pull this off, can you imagine how impressive we'll be? #line:P111
 Caroline: Maybe Finji, or Netflix, or Annapurna will see this and want to publish our next game! #line:C112
@@ -132,7 +144,7 @@ Richard: The deadline is getting closer, and we've only decided the setting of t
 Julia: If we keep talking about the game like this, it's only inevitable that we'll get it finished. #line:J117
 Richard: We've barely done anything. #line:R118
 Julia: *yawns* I'm getting pretty tired. Let's call it a day? #line:J119
-Richard: But, the game! #line:R120
+Richard: What about the game!? #line:R120
 Julia: I'm going to head out. Bye guys! #line:J121
 Everyone: Bye, Julia! #line:Ev122
 
@@ -141,18 +153,22 @@ Everyone: Bye, Julia! #line:Ev122
 ->Player: What if we made a roguelike action dungeon crawler? #line:Pl125
     Peter: Very Hades-esque, I love it. #line:P126
 
-Richard: But scope! We don't have that much time left. It doesn't even matter. Whatever mechanic we think for this idea, I don't think we'll have time to implement it. #line:R127
+Richard: But scope! We don't have that much time left. It doesn't even matter. Whatever mechanic we think of, we won’t have time to implement it. #line:R127
 Ben: Maybe we can try something simpler then? What's an easier game genre? #line:B128
 Emily: Visual novel! #line:E129
+<<style visualNovel>>
 Richard: But we've already spent all of this time making art assets for this rabbit bakery murder horror game. #line:R130
-Emily: It could be a love story between killer rabbits trying to reform themeselves? #line:E131
+Emily: It could be a love story between killer rabbits trying to reform themselves? #line:E131
 Caroline: Bunny girls! I already know exactly the design we could use. #line:132
+<<art bunnygirl>>
 Ben: I am getting inspired musically... #line:B133
-Caroline: I *could* make a classroom background... #line:C134
-Richard: *sighs* I GUESS this would make it easier on the programmers... #line:R135
+<<music songVN>>
+Caroline: I <i>could</i> make a classroom background... #line:C134
+<<art bgVN>>
+Richard: *sighs* I <i>guess</i> this would make it easier on the programmers... #line:R135
 Peter: I concur. #line:P136
 Emily: What if we subverted the typical visual novel tropes? What if our game initially seemed like your typical dating sim set in a literature club but then, when one of the girls commits suicide, the player has to restart the game? #line:E137
-Peter: THAT'S JUST DOKI DOKI LITERATURE CLUB! And, spoilers much? #line:P138
+Peter: THAT'S JUST <b>DOKI DOKI LITERATURE CLUB</b>! And, spoilers much? #line:P138
 Emily: I don't see why we can't just use that idea. #line:E139
 
 ->Player: This is really coming together. #line:Pl140
@@ -163,12 +179,14 @@ Emily: I don't see why we can't just use that idea. #line:E139
 ->Player: This game is a mess. #line:Pl145
     Peter: It'll be different, and game jams are for experimentation, right? #line:P146
 
-Richard: What tags are we even going to add to our game on Itch.io? Visual novel, romance, dark, dating sim, singleplayer- #line:R147
+Richard: What tags are we even going to add to our game on itch.io? Visual novel, romance, horror, dating sim, singleplayer- #line:R147
 Emily: What if we made it co-op? #line:E148
 Richard: But it's a visual novel! #line:R149
 Caroline: Since it has murder, what about a fan that becomes a bunch of daggers when you open it? Like a hidden weapon? #line:C150
-Richard: You know what? Sure. And let's add balloons while we're at it too. #line:R151
-Megan: That is a great idea. #line:M152
+<<art fan>>
+Richard: You know what? Sure. And let's add chess while we're at it too. #line:R151
+<<art chess>>
+Megan: That is a great idea. We could appeal to the Queen's Gambit community. #line:M152
 Richard: I was being sarcastic. #line:R153
 Emily: Okay, I'm wrapping up writing the story. Does anyone want to voice act? #line:E154
 Peter: I guess I'll do it. #line:P155
@@ -185,18 +203,19 @@ Richard: Sure. #line:R159
 
 Megan: We have writing, music, voice over, art, and audio. I think we're ready to playtest. #line:M165
 Ben: The music is implemented in FMOD. #line:B166
-Richard: Okay, let's start, because what can possibly go wrong with a horror visual novel, dating sim about murderous bunny girls working at a bakery? #line:R167
+Richard: Okay, let's start, because what could possibly go wrong with a horror visual novel, dating sim about murderous bunny girls working at a bakery? #line:R167
+<<wait 3>>
 Richard: I'm already noticing a ton of bugs. #line:R168
 Caroline: And time is running out... #line:C169
-Emily: Let's just submit this as it is. I'll set up the Itch and the page for Ludum Dare. #line:E170
+Emily: Let's just submit this as it is. I'll set up the itch and the page for Ludum Dare. #line:E170
 Peter: Should we add the humor category? #line:P171
 Emily: Who would think this is funny? #line:E172
 Megan: I just added the cover image. #line:M173
 Emily: Ready? #line:E174
 
-->Player: I...guess? #line:Pl175
+->Player: I... guess? #line:Pl175
     Emily: We did it! #line:E176
-->Player: No matter what, this game has already been made. #line:Pl177
+->Player: Not really, but okay. #line:Pl177
     Emily: We did it! #line:E178
 
 Caroline: Yay! #line:C179
