@@ -87,9 +87,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fonts:
-  - {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  - {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  - {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 11400000, guid: be684d7d9c3174c199e37f5a3949ecbc, type: 2}
+  - {fileID: 11400000, guid: 878df230fbd554b2cac21afb39fca40f, type: 2}
+  - {fileID: 11400000, guid: 76740e66d4ed34af7892839c0bbc980e, type: 2}
   sprites:
   - {fileID: 21300000, guid: 05e0cc7280b9d4a8aaa485ece0e29a7a, type: 3}
   - {fileID: 21300000, guid: 24b3d2970ded945b796fcb0cfc9aa083, type: 3}
