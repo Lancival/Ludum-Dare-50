@@ -22,9 +22,9 @@ public class CustomDialogueView : DialogueViewBase
         [Tooltip("FadeCanvasGroup component that should fade in and out.")]
             [SerializeField] private FadeCanvasGroup fade;
     
-    [Header("Dialogue Options")]
+    [Header("Dialogue")]
         [Tooltip("List of CustomOptionViews that will display the dialogue options.")]
-        public List<CustomOptionView> optionViews = new List<CustomOptionView>();
+            public List<CustomOptionView> optionViews = new List<CustomOptionView>();
 
     private Queue<LocalizedLine> pendingLines;
     private Coroutine running = null;
@@ -52,6 +52,14 @@ public class CustomDialogueView : DialogueViewBase
             _instance = null;
             Settings.Subtitles.onChange -= SubtitleVisibilityChange;
         }
+    }
+
+    [YarnCommand("customWait")]
+    private IEnumerator CustomWait(float length)
+    {
+        yield return new WaitUntil(() => running == null);
+        yield return new WaitForSeconds(length);
+        yield break;
     }
 
     private void SubtitleVisibilityChange(bool subtitle)
