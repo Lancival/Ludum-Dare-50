@@ -55,12 +55,15 @@ public class PlayerController : MonoBehaviour
     private float lastJumpPressed_;
     private bool endedJumpEarly_ = false;
     
-    
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip jumpLanding; 
+    private AudioSource audioSource;
 
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         ground = GetComponent<Ground>();
+        audioSource = GetComponent<AudioSource>();
         footEmission = footsteps.emission;
     }
 
@@ -113,6 +116,7 @@ public class PlayerController : MonoBehaviour
 
         if (!wasOnGround && onGround)
         {
+            audioSource.PlayOneShot(jumpLanding, 0.6f);
             impactEffect.gameObject.SetActive(true);
             impactEffect.Stop();
             impactEffect.transform.position = footsteps.transform.position;
@@ -125,6 +129,7 @@ public class PlayerController : MonoBehaviour
     {   
         if (jumpPressed && jumpPhase < maxAirJumps && CanUseCoyote || hasBufferedJump_)
         {
+            audioSource.PlayOneShot(jumpSound, 0.6f);
             coyoteUsable = false;
             jumpPressed = false;
             endedJumpEarly_ = false;
