@@ -162,6 +162,7 @@ public class CustomDialogueView : DialogueViewBase
                     // Interrupt currently playing line and clear pending lines
                     if (running != null)
                     {
+                        audioSource.Stop();
                         StopCoroutine(running);
                         running = null;
                     }
