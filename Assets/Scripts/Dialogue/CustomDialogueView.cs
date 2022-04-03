@@ -16,7 +16,7 @@ public class CustomDialogueView : DialogueViewBase
 
     [Header("Text")]
         [Tooltip("TextMeshPro text component that should print the dialogue line.")]
-            [SerializeField] private TextMeshProUGUI dialogueBox;
+            public TextMeshProUGUI dialogueBox;
         [Tooltip("TextMeshPro text component that should print the character name.")]
             [SerializeField] private TextMeshProUGUI nameBox;
         [Tooltip("FadeCanvasGroup component that should fade in and out.")]
@@ -54,10 +54,24 @@ public class CustomDialogueView : DialogueViewBase
         }
     }
 
+    public static IEnumerator WaitUntilNotRunning()
+    {
+        if (instance != null)
+            yield return new WaitUntil(() => instance.running == null);
+        yield break;
+    }
+
     [YarnCommand("customWait")]
+    private static IEnumerator CustomWaitStatic(float length)
+    {
+        if (instance != null)
+            yield return instance.CustomWait(length);
+        yield break;
+    }
+
     private IEnumerator CustomWait(float length)
     {
-        yield return new WaitUntil(() => running == null);
+        yield return WaitUntilNotRunning();
         yield return new WaitForSeconds(length);
         yield break;
     }

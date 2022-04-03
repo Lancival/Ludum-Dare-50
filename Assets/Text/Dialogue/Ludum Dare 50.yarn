@@ -26,7 +26,7 @@ Ben: I'm okay with anything too. #line:B21
 Megan: Same. #line:M22
 Peter: ...Well, the theme is delay the inevitable. #line:P23
 Emily: What about a game where you're perpetually single and you try to find a partner, but they all reject you and you die single? Delaying the inevitable of being forever alone. Like an anti-dating sim? Anyone? #line:E24
-<<customWait SubtitleCanvas 3>>
+<<customWait 3>>
 Peter: I don't think anyone wants to play a sim of your life, Emily. I'm sorry. #line:P25
 Emily: O-okay, I guess... #line:E26
 Caroline: I just want to make a game about food. Like a bakery! #line:C27
@@ -50,7 +50,7 @@ Peter: What do you think? #line:P31
     <<art bunny>>
     Richard: I'm okay with rabbits, but what would the gameplay be though? #line:R41
 
-<<customWait SubtitleCanvas 3>>
+<<customWait 3>>
 Peter: Uh, I don't really know. #line:P42
 Caroline: ...I just wanted to draw cute rabbits. #line:C43
 Richard: To be honest, I'm not sure I want to make another cooking game after we made A Taste of the Past, the game we made for Ludum Dare 48 and is now free on Steam with a 96% positive rating. #line:R44
@@ -204,7 +204,7 @@ Richard: Sure. #line:R159
 Megan: We have writing, music, voice over, art, and audio. I think we're ready to playtest. #line:M165
 Ben: The music is implemented in FMOD. #line:B166
 Richard: Okay, let's start, because what could possibly go wrong with a horror visual novel, dating sim about murderous bunny girls working at a bakery? #line:R167
-<<customWait SubtitleCanvas 3>>
+<<customWait 3>>
 Richard: I'm already noticing a ton of bugs. #line:R168
 Caroline: And time is running out... #line:C169
 Emily: Let's just submit this as it is. I'll set up the itch and the page for Ludum Dare. #line:E170

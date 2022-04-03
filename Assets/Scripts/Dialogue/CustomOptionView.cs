@@ -6,7 +6,7 @@ public class CustomOptionView : MonoBehaviour
 {
 
     [Tooltip("TextMeshPro Text component that should show the text of the dialogue option.")]
-        [SerializeField] private TextMeshProUGUI textMesh;
+        public TextMeshProUGUI textMesh;
     [Tooltip("Whether this CustomOptionView should register itself with the CustomDialogueView at the start of the scene.")]
         [SerializeField] private bool registerOnStart = true;
 
@@ -39,5 +39,10 @@ public class CustomOptionView : MonoBehaviour
     {
         UpdateText("");
         onOptionChosen.RemoveAllListeners();
+    }
+
+    public void SwitchSprite(Sprite sprite)
+    {
+        Debug.Log("Switching sprites!");
     }
 }

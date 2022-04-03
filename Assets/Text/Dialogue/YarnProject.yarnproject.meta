@@ -19,5 +19,6 @@ ScriptedImporter:
     stringsFile: {instanceID: 0}
     assetsFolder: {fileID: 102900000, guid: 769cad8f3fa7d427592e0f84e557befb, type: 3}
   useAddressableAssets: 0
-  searchAllAssembliesForActions: 1
-  assembliesToSearch: []
+  searchAllAssembliesForActions: 0
+  assembliesToSearch:
+  - {fileID: 5897886265953266890, guid: 1d94b0afb08c84cb6b9491871efe7aaa, type: 3}
