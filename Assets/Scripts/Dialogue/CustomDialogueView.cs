@@ -81,8 +81,12 @@ public class CustomDialogueView : DialogueViewBase
         while (pendingLines.Count > 0)
         {
             LocalizedLine dialogueLine = pendingLines.Dequeue();
+
+            // Update text boxes
             dialogueBox.text = dialogueLine.TextWithoutCharacterName.Text;
             nameBox.text = dialogueLine.CharacterName;
+
+            // Play audio
             if (dialogueLine is AudioLocalizedLine)
             {
                 AudioLocalizedLine audioLine = (AudioLocalizedLine) dialogueLine;
