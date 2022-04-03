@@ -12,7 +12,9 @@ public class CustomDialogueView : DialogueViewBase
 
     [Header("Audio")]
         [Tooltip("AudioSource that should play the voiceovers.")]
-        [SerializeField] private AudioSource audioSource;
+            [SerializeField] private AudioSource audioSource;
+        [Tooltip("Amount of time between voiceovers, in seconds.")]
+            [SerializeField] private float delay = 0.5f;
 
     [Header("Text")]
         [Tooltip("TextMeshPro text component that should print the dialogue line.")]
@@ -115,7 +117,7 @@ public class CustomDialogueView : DialogueViewBase
                 if (clip != null)
                 {
                     audioSource.PlayOneShot(clip);
-                    yield return new WaitForSeconds(clip.length);
+                    yield return new WaitForSeconds(clip.length + delay);
                 }
                 else
                 {
