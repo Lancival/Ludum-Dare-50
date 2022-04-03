@@ -24,7 +24,7 @@ public class CustomDialogueView : DialogueViewBase
     
     [Header("Dialogue Options")]
         [Tooltip("List of CustomOptionViews that will display the dialogue options.")]
-        public List<CustomOptionView> optionViews;
+        public List<CustomOptionView> optionViews = new List<CustomOptionView>();
 
     private Queue<LocalizedLine> pendingLines;
     private Coroutine running = null;
@@ -41,7 +41,6 @@ public class CustomDialogueView : DialogueViewBase
         }
         _instance = this;
         pendingLines = new Queue<LocalizedLine>();
-        optionViews = new List<CustomOptionView>();
 
         Settings.Subtitles.onChange += SubtitleVisibilityChange;
     }

@@ -13,7 +13,7 @@ public class CustomOptionView : MonoBehaviour
     [Tooltip("Event which is invoked when this option is chosen.")]
     public UnityEvent onOptionChosen;
 
-    public void Start()
+    public void Awake()
     {
         if (registerOnStart)
             Register();
