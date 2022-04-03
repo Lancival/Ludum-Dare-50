@@ -16,7 +16,7 @@ public class StyleHandler : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogWarning("Another SytleHandler already exists.");
+            Debug.LogWarning("Another StyleHandler already exists.");
             Destroy(this);
         }
         instance = this;
