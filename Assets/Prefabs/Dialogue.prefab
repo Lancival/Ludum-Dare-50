@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 7214012454572774864}
   - component: {fileID: 7386580738515916546}
   m_Layer: 0
-  m_Name: Icon
+  m_Name: Emily Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1091,7 +1091,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05e0cc7280b9d4a8aaa485ece0e29a7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c1fbd1fb72414179835519b61867cd8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
