@@ -38,8 +38,6 @@ public class MusicHandler : MonoBehaviour
 
     private void PlayMusic(string music)
     {
-        Debug.Log(string.Format("Now playing {0}.", music));
-
         int index = 0;
         switch (music)
         {
