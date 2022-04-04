@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6434408929539863119}
   - component: {fileID: 5071732442535892275}
   m_Layer: 0
-  m_Name: Icon (4)
+  m_Name: Megan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 5133239626876774702}
   - component: {fileID: 7635261017601847543}
   m_Layer: 0
-  m_Name: Icon (3)
+  m_Name: Richard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05e0cc7280b9d4a8aaa485ece0e29a7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24b3d2970ded945b796fcb0cfc9aa083, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 1315601822703002636}
   - component: {fileID: 3066927590200429739}
   m_Layer: 0
-  m_Name: Icon (5)
+  m_Name: Ben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -559,6 +559,7 @@ GameObject:
   - component: {fileID: 1896696919262815680}
   - component: {fileID: 5349750736755075557}
   - component: {fileID: 7218887053010556967}
+  - component: {fileID: 6694344653535157526}
   m_Layer: 0
   m_Name: Discord Canvas
   m_TagString: Untagged
@@ -647,6 +648,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &6694344653535157526
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538453718467522216}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &3105582015914681692
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,12 +672,12 @@ GameObject:
   - component: {fileID: 1135190343576588411}
   - component: {fileID: 308615835644151400}
   m_Layer: 0
-  m_Name: Icon (6)
+  m_Name: Julia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7045600238375649382
 RectTransform:
   m_ObjectHideFlags: 0
@@ -680,9 +693,9 @@ RectTransform:
   m_Father: {fileID: 3344089025487808655}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 867, y: -69}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1135190343576588411
@@ -713,7 +726,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05e0cc7280b9d4a8aaa485ece0e29a7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 381e7417cb21e412f83d716c9cc8e95a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -810,7 +823,7 @@ GameObject:
   - component: {fileID: 5982630480212145440}
   - component: {fileID: 798361058007839023}
   m_Layer: 0
-  m_Name: Icon (1)
+  m_Name: Caroline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05e0cc7280b9d4a8aaa485ece0e29a7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79fcf1ccaf175484587527362e129dd9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -886,7 +899,7 @@ GameObject:
   - component: {fileID: 4853674067518003109}
   - component: {fileID: 3059674706104865994}
   m_Layer: 0
-  m_Name: Icon (2)
+  m_Name: Peter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -940,7 +953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05e0cc7280b9d4a8aaa485ece0e29a7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 680c5f67dca534f9aa81531904d21823, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1037,7 +1050,7 @@ GameObject:
   - component: {fileID: 7214012454572774864}
   - component: {fileID: 7386580738515916546}
   m_Layer: 0
-  m_Name: Emily Icon
+  m_Name: Emily
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2444,6 +2457,7 @@ GameObject:
   - component: {fileID: 3344089025487808655}
   - component: {fileID: 6206435601177250229}
   - component: {fileID: 6562104942008182238}
+  - component: {fileID: 8821761462436944520}
   m_Layer: 0
   m_Name: Icon Container
   m_TagString: Untagged
@@ -2517,3 +2531,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &8821761462436944520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158154092996565505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abd5a5a3e80e4df1b6bcee5a53450b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -86,6 +86,8 @@ Megan: Maybe part of the game is harvesting the strawberries? I can add farm too
 Emily: I GOT IT! An open-ended country-life RPG about inheriting your grandfather's old farm plot. Armed with hand-me down tools and a few coins- #line:E64
 Peter: You mean <b>Stardew Valley</b>? #line:P65
 Emily: Oh, yeah. That <i>does</i> kind of remind me of Stardew Valley. #line:E66
+<<customWait 0>>
+<<Julia>>
 Julia: Hey guys! Just came back from work. What did I miss? #line:J67
 Richard: We're making a management game about rabbits who work at a bakery. #line:R68
 Julia: Oh. #line:J69
@@ -158,6 +160,8 @@ Julia: I'm going to head out. Bye guys! #line:J121
 Everyone: Bye, Julia! #line:Ev122
 
 <<customWait 0>>
+<<Julia>>
+
 ->Player: What if we made our game an open world MMO? #line:Pl123
     Caroline: Ooh, like World of Warcraft, I love it. #line:C124
 ->Player: What if we made a roguelike action dungeon crawler? #line:Pl125

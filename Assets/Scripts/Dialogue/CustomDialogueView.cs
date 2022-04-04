@@ -109,6 +109,7 @@ public class CustomDialogueView : DialogueViewBase
             // Update text boxes
             dialogueBox.text = dialogueLine.TextWithoutCharacterName.Text;
             nameBox.text = dialogueLine.CharacterName;
+            IconManager.instance.Speak(dialogueLine.CharacterName);
 
             // Play audio
             if (dialogueLine is AudioLocalizedLine)
