@@ -50,8 +50,8 @@ Peter: What do you think? #line:P31
     <<art Bakery4>>
     <<art Bakery5>>
     <<art Bakery6>>
-    <<art bakedGood>>
-    <<art bakedGood1>>
+    <<art BakedGood1>>
+    <<art BakedGood2>>
     <<art BakeryHouse>>
     <<art BakeryHouse2>>
     Richard: What would the gameplay be though? #line:R35
@@ -68,8 +68,8 @@ Peter: What do you think? #line:P31
     <<art Bakery4>>
     <<art Bakery5>>
     <<art Bakery6>>
-    <<art bakedGood>>
-    <<art bakedGood1>>
+    <<art BakedGood1>>
+    <<art BakedGood2>>
     <<art BakeryHouse>>
     <<art BakeryHouse2>>
     Richard: I'm okay with rabbits, but what would the gameplay be though? #line:R41
