@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using Yarn.Unity;
+
+[RequireComponent(typeof(AudioSource))]
 
 public class IconManager : MonoBehaviour
 {
@@ -8,6 +11,11 @@ public class IconManager : MonoBehaviour
     private List<GameObject> rings;
     private List<string> names;
     private GameObject julia;
+
+    [SerializeField] private AudioClip discordJoin;
+    [SerializeField] private AudioClip discordLeave;
+    private AudioSource audioSource;
+    private bool joined = false;
 
     private static IconManager _instance = null;
     public static IconManager instance => _instance;
@@ -32,6 +40,8 @@ public class IconManager : MonoBehaviour
         }
 
         julia = transform.GetChild(6).gameObject;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void Speak(string speakerName)
@@ -54,5 +64,10 @@ public class IconManager : MonoBehaviour
     public static void ToggleJulia()
     {
         _instance.julia.SetActive(!_instance.julia.activeSelf);
+        if (_instance.joined)
+            _instance.audioSource.PlayOneShot(_instance.discordLeave);
+        else
+            _instance.audioSource.PlayOneShot(_instance.discordJoin);
+        _instance.joined = !_instance.joined;
     }
 }
