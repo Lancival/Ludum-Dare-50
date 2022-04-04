@@ -10,6 +10,8 @@ public class Platform : MonoBehaviour
     private AudioSource audioSource;
     [SerializeField] private AudioClip ac;
     private CustomOptionView option;
+
+    bool hasPlayed = false;
     
     void Awake()
     {
@@ -26,6 +28,10 @@ public class Platform : MonoBehaviour
 
     public void PlayDiscordNotificationSound()
     {
-        audioSource.PlayOneShot(ac, 0.4f);
+        if (!hasPlayed)
+        {
+            audioSource.PlayOneShot(ac, 0.4f);
+            hasPlayed = !hasPlayed;
+        }
     }
 }
