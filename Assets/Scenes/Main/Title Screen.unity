@@ -1338,7 +1338,7 @@ MonoBehaviour:
     Richard Cheng, Emily Pitcher, Megan Xu, Caroline Wang, Ben Young, Julia Lee
 
     Art
-    - Julia Lee, Caroline Wang, Tiffany Chen, Megan Xu
+    - Julia Lee, Caroline Wang, Tiffany Shen, Megan Xu
 
     Programming - Richard
     Cheng, Peter Sutarjo
@@ -3205,11 +3205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 823220135467086744, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 823220135467086744, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 36.26
       objectReference: {fileID: 0}
     - target: {fileID: 823220135506539494, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3289,11 +3289,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 823220135824941368, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 823220135824941368, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 36.26
       objectReference: {fileID: 0}
     - target: {fileID: 823220135850023544, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3513,11 +3513,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 823220136412819724, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 823220136412819724, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 36.26
       objectReference: {fileID: 0}
     - target: {fileID: 823220136448632512, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3805,11 +3805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 823220137429147788, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 823220137429147788, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 36.26
       objectReference: {fileID: 0}
     - target: {fileID: 823220137436685771, guid: 32b4e7b2de61f4af4aa2b05cd2dc423d, type: 3}
       propertyPath: m_AnchorMax.y
