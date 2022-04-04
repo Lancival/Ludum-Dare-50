@@ -42,8 +42,18 @@ Peter: What do you think? #line:P31
 ->Player: RABBITS ARE COOL AS HECK. #line:Pl32
     Megan: Heck ya! Let's do it! #line:M33
     Caroline: Yay! And the rabbits can wear little outfits too! #line:C34
-    <<art bunny>>
+    <<art Rabbit1>>
+    <<art Rabbit2>>
+    <<art Bakery1>>
+    <<art Bakery6>>
+    <<art Bakery2>>
+    <<art Bakery3>>
+    <<art Bakery4>>
+    <<art Bakery5>>
+    <<art bakedGood>>
+    <<art bakedGood1>>
     <<art bakeryHouse>>
+    <<art bakeryHouse2>>
     Richard: What would the gameplay be though? #line:R35
 ->Player: This is some girly BS. #line:Pl36
     Caroline: B-but... rabbits... and cupcakes... #line:C37
