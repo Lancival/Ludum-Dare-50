@@ -14224,7 +14224,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 368676792}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -18265,7 +18277,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 451149009}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -18572,7 +18596,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 452760597}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -25976,7 +26012,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 599739584}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -38592,7 +38640,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 904844051}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -48230,7 +48290,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1131251167}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -49154,7 +49226,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1157974217}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -50997,7 +51081,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1184286721}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -57055,7 +57151,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1342900505}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -61171,6 +61279,7 @@ GameObject:
   - component: {fileID: 1431394224}
   - component: {fileID: 1431394223}
   - component: {fileID: 1431394227}
+  - component: {fileID: 1431394228}
   m_Layer: 0
   m_Name: Baking (1)
   m_TagString: Untagged
@@ -61212,7 +61321,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431394227}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -61330,6 +61451,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+--- !u!82 &1431394228
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431394221}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1431880100
 GameObject:
   m_ObjectHideFlags: 0
@@ -63105,7 +63322,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1466683536}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -79093,7 +79322,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1860229270}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -79687,7 +79928,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1867119985}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -82791,7 +83044,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1913245263}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -85595,7 +85860,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1961603009}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -86138,7 +86415,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1965397733}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -89310,7 +89599,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2046278274}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -94252,6 +94553,7 @@ GameObject:
   - component: {fileID: 530984477013649632}
   - component: {fileID: 530984477013649633}
   - component: {fileID: 530984477013649634}
+  - component: {fileID: 530984477013649635}
   m_Layer: 0
   m_Name: Baking
   m_TagString: Untagged
@@ -94355,7 +94657,19 @@ MonoBehaviour:
   registerOnStart: 1
   onOptionChosen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 530984477013649634}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -94372,6 +94686,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+--- !u!82 &530984477013649635
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530984477013649630}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!61 &530984478234992192
 BoxCollider2D:
   m_ObjectHideFlags: 0
