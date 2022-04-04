@@ -7,6 +7,8 @@ public class Platform : MonoBehaviour
     private Rigidbody2D rb;
     private EdgeCollider2D ec;
 
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip ac;
     private CustomOptionView option;
     
     void Awake()
@@ -14,10 +16,16 @@ public class Platform : MonoBehaviour
         ec = GetComponent<EdgeCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         option = GetComponent<CustomOptionView>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         option.InvokeOption();        
+    }
+
+    public void PlayDiscordNotificationSound()
+    {
+        audioSource.PlayOneShot(ac, 0.4f);
     }
 }
