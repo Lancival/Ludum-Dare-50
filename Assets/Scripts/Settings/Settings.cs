@@ -19,7 +19,7 @@ public static class Settings
         set
         {
             _paused = value;
-            onPause.Invoke(value);
+            onPause?.Invoke(value);
         }
     }
 }
