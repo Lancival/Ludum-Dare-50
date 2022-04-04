@@ -737,6 +737,10 @@ PrefabInstance:
       value: Horror 1 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -861,6 +865,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -1597,6 +1605,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -2190,7 +2202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -2549,7 +2561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -2954,6 +2966,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 71033022}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -3090,6 +3114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1982158216}
 --- !u!82 &71033023
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3263,6 +3288,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -3603,6 +3632,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -4463,6 +4496,10 @@ PrefabInstance:
       value: Horror (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399596
       objectReference: {fileID: 0}
@@ -4571,6 +4608,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -4849,6 +4890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &132782482
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -4866,27 +4908,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1240023505}
-    m_ColliderPaths:
-    - - X: -32000183
-        Y: -3200000
-      - X: -32000183
-        Y: 3200000
-      - X: -38399888
-        Y: 3199707
-      - X: -38399595
-        Y: -3200000
-  - m_Collider: {fileID: 1772227940}
-    m_ColliderPaths:
-    - - X: -25600037
-        Y: -3200000
-      - X: -25600037
-        Y: 3200000
-      - X: -31999742
-        Y: 3199707
-      - X: -31999449
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399596, y: -0.3199707}
@@ -4983,6 +5005,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -5332,6 +5358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &151918216
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -5349,37 +5376,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 720515818}
-    m_ColliderPaths:
-    - - X: -57699949
-        Y: -4099963
-      - X: -57699949
-        Y: 2300036
-      - X: -64099660
-        Y: 2299743
-      - X: -64099367
-        Y: -4099963
-  - m_Collider: {fileID: 1885064679}
-    m_ColliderPaths:
-    - - X: -25700135
-        Y: -4099963
-      - X: -25700135
-        Y: 2300036
-      - X: -32099840
-        Y: 2299743
-      - X: -32099547
-        Y: -4099963
-  - m_Collider: {fileID: 1697412315}
-    m_ColliderPaths:
-    - - X: -32100195
-        Y: -4099963
-      - X: -32100195
-        Y: 2300036
-      - X: -57699900
-        Y: 2299743
-      - X: -57699607
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.409937, y: -0.409967}
@@ -5419,6 +5416,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -5969,6 +5970,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -6834,6 +6839,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -7304,6 +7313,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -7423,6 +7436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &206826716
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -7440,47 +7454,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1003864427}
-    m_ColliderPaths:
-    - - X: -57700561
-        Y: -4099963
-      - X: -57700561
-        Y: 2300036
-      - X: -64100272
-        Y: 2299743
-      - X: -64099979
-        Y: -4099963
-  - m_Collider: {fileID: 1750081915}
-    m_ColliderPaths:
-    - - X: -25700441
-        Y: -4099963
-      - X: -25700441
-        Y: 2300036
-      - X: -32100146
-        Y: 2299743
-      - X: -32099853
-        Y: -4099963
-  - m_Collider: {fileID: 1483868210}
-    m_ColliderPaths:
-    - - X: -32100195
-        Y: -4099963
-      - X: -32100195
-        Y: 2300036
-      - X: -57699900
-        Y: 2299743
-      - X: -57699607
-        Y: -4099963
-  - m_Collider: {fileID: 1745914615}
-    m_ColliderPaths:
-    - - X: -57700561
-        Y: -4099963
-      - X: -57700561
-        Y: 2300036
-      - X: -64100272
-        Y: 2299743
-      - X: -64099979
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.409998, y: -0.409967}
@@ -8209,6 +8183,10 @@ PrefabInstance:
       value: Horror 1 (39)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -8729,6 +8707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &231546869
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -8746,27 +8725,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 711767958}
-    m_ColliderPaths:
-    - - X: -42700253
-        Y: -13100054
-      - X: -42700253
-        Y: -6700055
-      - X: -49099964
-        Y: -6700348
-      - X: -49099671
-        Y: -13100054
-  - m_Collider: {fileID: 667756596}
-    m_ColliderPaths:
-    - - X: -36300417
-        Y: -13100054
-      - X: -36300417
-        Y: -6700055
-      - X: -42700124
-        Y: -6700348
-      - X: -42699831
-        Y: -13100054
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -4.9099674, y: -1.3099761}
@@ -8844,6 +8803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &231565832
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -8861,27 +8821,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 607229808}
-    m_ColliderPaths:
-    - - X: -32000489
-        Y: -3200000
-      - X: -32000489
-        Y: 3200000
-      - X: -38400196
-        Y: 3199707
-      - X: -38399903
-        Y: -3200000
-  - m_Collider: {fileID: 1236866946}
-    m_ColliderPaths:
-    - - X: -25600343
-        Y: -3200000
-      - X: -25600343
-        Y: 3200000
-      - X: -32000048
-        Y: 3199707
-      - X: -31999755
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399904, y: -0.3199707}
@@ -8983,6 +8923,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -9130,6 +9074,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -9408,6 +9356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &241519712
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -9425,27 +9374,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1062779550}
-    m_ColliderPaths:
-    - - X: -32000183
-        Y: -3200000
-      - X: -32000183
-        Y: 3200000
-      - X: -38399888
-        Y: 3199707
-      - X: -38399595
-        Y: -3200000
-  - m_Collider: {fileID: 1612905560}
-    m_ColliderPaths:
-    - - X: -25600037
-        Y: -3200000
-      - X: -25600037
-        Y: 3200000
-      - X: -31999742
-        Y: 3199707
-      - X: -31999449
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399596, y: -0.3199707}
@@ -9745,6 +9674,10 @@ PrefabInstance:
       value: Horror 1 (22)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -9980,6 +9913,10 @@ PrefabInstance:
       value: Horror (9)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -10088,6 +10025,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -10318,6 +10259,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -10513,6 +10458,10 @@ PrefabInstance:
       value: Horror 1 (72)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -10680,7 +10629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -10929,6 +10878,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -11018,7 +10971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &290157387
 Transform:
   m_ObjectHideFlags: 0
@@ -11410,6 +11363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &298266544
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -11427,27 +11381,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 2138309616}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 223823863}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -12106,6 +12040,10 @@ PrefabInstance:
       value: Horror 1 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -12287,6 +12225,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -12745,6 +12687,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -13283,6 +13229,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -13853,6 +13803,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -14208,6 +14162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1907597741}
 --- !u!114 &368676793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14228,6 +14183,18 @@ MonoBehaviour:
       - m_Target: {fileID: 368676792}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 368676792}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14396,6 +14363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &371600949
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -14413,27 +14381,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 499110420}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 1244785682}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -14741,6 +14689,10 @@ PrefabInstance:
       value: Horror 1 (29)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -14865,6 +14817,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -15129,6 +15085,10 @@ PrefabInstance:
       value: Horror 1 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -15253,6 +15213,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -15418,6 +15382,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -15914,6 +15882,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -16032,6 +16004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &404619229
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -16049,37 +16022,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1853964692}
-    m_ColliderPaths:
-    - - X: -57699949
-        Y: -4099963
-      - X: -57699949
-        Y: 2300036
-      - X: -64099660
-        Y: 2299743
-      - X: -64099367
-        Y: -4099963
-  - m_Collider: {fileID: 478168836}
-    m_ColliderPaths:
-    - - X: 141340267
-        Y: -4099963
-      - X: 141340267
-        Y: 2300036
-      - X: 134940560
-        Y: 2299743
-      - X: 134940853
-        Y: -4099963
-  - m_Collider: {fileID: 230398419}
-    m_ColliderPaths:
-    - - X: 134940315
-        Y: -4099963
-      - X: 134940315
-        Y: 2300036
-      - X: -57699396
-        Y: 2299743
-      - X: -57699103
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.409937, y: -0.409967}
@@ -17812,6 +17755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &443475533
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -17829,27 +17773,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1947202010}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 2064186523}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -18261,6 +18185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 0}
 --- !u!114 &451149010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18411,6 +18336,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -18580,6 +18509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 821386119}
 --- !u!114 &452760598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18600,6 +18530,18 @@ MonoBehaviour:
       - m_Target: {fileID: 452760597}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 452760597}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18977,6 +18919,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -19061,6 +19007,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -19171,6 +19121,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -19291,6 +19245,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -19419,6 +19377,10 @@ PrefabInstance:
       value: Horror (14)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399596
       objectReference: {fileID: 0}
@@ -19527,6 +19489,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -19696,7 +19662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -19941,6 +19907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &477777733
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -19958,27 +19925,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1369541337}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 373760750}
-    m_ColliderPaths:
-    - - X: -51300109
-        Y: -4099963
-      - X: -51300109
-        Y: 2300036
-      - X: -57699820
-        Y: 2299743
-      - X: -57699527
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -20132,7 +20079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &478554571
 Transform:
   m_ObjectHideFlags: 0
@@ -20348,6 +20295,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -20427,6 +20378,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -20830,6 +20785,10 @@ PrefabInstance:
       value: Horror 1 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -20992,6 +20951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &494326559
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -21009,27 +20969,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 102672926}
-    m_ColliderPaths:
-    - - X: -52200681
-        Y: -14300005
-      - X: -52200681
-        Y: -7900006
-      - X: -58600392
-        Y: -7900299
-      - X: -58600099
-        Y: -14300005
-  - m_Collider: {fileID: 1510507767}
-    m_ColliderPaths:
-    - - X: -45800537
-        Y: -14300005
-      - X: -45800537
-        Y: -7900006
-      - X: -52200244
-        Y: -7900299
-      - X: -52199951
-        Y: -14300005
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -5.86001, y: -1.4299712}
@@ -21318,6 +21258,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -22027,6 +21971,10 @@ PrefabInstance:
       value: Horror 1 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -22622,6 +22570,10 @@ PrefabInstance:
       value: Horror 1 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -22898,7 +22850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -23148,7 +23100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -23357,6 +23309,10 @@ PrefabInstance:
       value: Horror 1 (31)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -23481,6 +23437,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -23951,6 +23911,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -24702,6 +24666,10 @@ PrefabInstance:
       value: Horror 1 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -25030,6 +24998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &579951944
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -25047,27 +25016,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1304660745}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 1254107420}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -25146,6 +25095,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -25568,6 +25521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &595054730
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -25585,27 +25539,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 950962160}
-    m_ColliderPaths:
-    - - X: -49200193
-        Y: -3200000
-      - X: -49200193
-        Y: 3200000
-      - X: -55599904
-        Y: 3199707
-      - X: -55599611
-        Y: -3200000
-  - m_Collider: {fileID: 781494269}
-    m_ColliderPaths:
-    - - X: -42800049
-        Y: -3200000
-      - X: -42800049
-        Y: 3200000
-      - X: -49199756
-        Y: 3199707
-      - X: -49199463
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -5.5599613, y: -0.3199707}
@@ -25685,6 +25619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &597440329
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -25702,47 +25637,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1586246750}
-    m_ColliderPaths:
-    - - X: -75199949
-        Y: -9699939
-      - X: -75199949
-        Y: -3299939
-      - X: -81599656
-        Y: -3300232
-      - X: -81599363
-        Y: -9699939
-  - m_Collider: {fileID: 347743180}
-    m_ColliderPaths:
-    - - X: -43200133
-        Y: -9699939
-      - X: -43200133
-        Y: -3299939
-      - X: -49599844
-        Y: -3300232
-      - X: -49599551
-        Y: -9699939
-  - m_Collider: {fileID: 1637976635}
-    m_ColliderPaths:
-    - - X: -49600197
-        Y: -9699939
-      - X: -49600197
-        Y: -3299939
-      - X: -75199896
-        Y: -3300232
-      - X: -75199603
-        Y: -9699939
-  - m_Collider: {fileID: 103098372}
-    m_ColliderPaths:
-    - - X: -75199949
-        Y: -9699939
-      - X: -75199949
-        Y: -3299939
-      - X: -81599656
-        Y: -3300232
-      - X: -81599363
-        Y: -9699939
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -8.159936, y: -0.9699646}
@@ -25996,6 +25891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 821386119}
 --- !u!114 &599739585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26016,6 +25912,18 @@ MonoBehaviour:
       - m_Target: {fileID: 599739584}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 599739584}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26340,6 +26248,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -26452,6 +26364,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -26725,6 +26641,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -27052,6 +26972,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -27785,6 +27709,10 @@ PrefabInstance:
       value: Horror 1 (80)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -28075,6 +28003,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 639715358}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -28211,6 +28151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1982158216}
 --- !u!82 &639715359
 AudioSource:
   m_ObjectHideFlags: 0
@@ -28526,6 +28467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &651894844
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -28543,27 +28485,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 653509817}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 1988545248}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -29058,6 +28980,10 @@ PrefabInstance:
       value: Horror 1 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -29345,6 +29271,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -30056,6 +29986,10 @@ PrefabInstance:
       value: Horror 1 (50)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -30391,6 +30325,10 @@ PrefabInstance:
     - target: {fileID: 7607265414129116603, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -31286,6 +31224,10 @@ PrefabInstance:
       value: Horror 1 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -31443,6 +31385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &705140484
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -31460,27 +31403,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1011681534}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 193698141}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -32510,6 +32433,10 @@ PrefabInstance:
       value: Horror 1 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -32785,6 +32712,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -32903,6 +32834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &725465358
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -32920,37 +32852,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 599216881}
-    m_ColliderPaths:
-    - - X: -56762909
-        Y: -3913155
-      - X: -56765053
-        Y: 2485836
-      - X: -63160176
-        Y: 2487692
-      - X: -63157739
-        Y: -3911007
-  - m_Collider: {fileID: 313159257}
-    m_ColliderPaths:
-    - - X: 167972347
-        Y: -3988289
-      - X: 167970219
-        Y: 2410702
-      - X: -56764460
-        Y: 2485921
-      - X: -56762011
-        Y: -3912777
-  - m_Collider: {fileID: 2016556414}
-    m_ColliderPaths:
-    - - X: 174367771
-        Y: -3990670
-      - X: 174365627
-        Y: 2408321
-      - X: 167970512
-        Y: 2410177
-      - X: 167972933
-        Y: -3988521
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436747, y: -0.399067}
@@ -33029,6 +32931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &731021448
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -33046,37 +32949,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 554840348}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 1097837660}
-    m_ColliderPaths:
-    - - X: 141340267
-        Y: -4099963
-      - X: 141340267
-        Y: 2300036
-      - X: 134940560
-        Y: 2299743
-      - X: 134940853
-        Y: -4099963
-  - m_Collider: {fileID: 1870310588}
-    m_ColliderPaths:
-    - - X: 134940011
-        Y: -4100039
-      - X: 134940011
-        Y: 2299960
-      - X: -57699700
-        Y: 2299667
-      - X: -57699407
-        Y: -4100039
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -33116,6 +32989,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -33398,6 +33275,10 @@ PrefabInstance:
       value: Horror 1 (23)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -33519,6 +33400,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
@@ -33888,6 +33773,10 @@ PrefabInstance:
       value: Horror 1 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -34012,6 +33901,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -34424,6 +34317,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -34914,6 +34811,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -35586,6 +35487,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -36321,7 +36226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &821386120
 Transform:
   m_ObjectHideFlags: 0
@@ -36549,6 +36454,10 @@ PrefabInstance:
       value: Horror 1 (24)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -36673,6 +36582,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -37100,6 +37013,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -37841,6 +37758,10 @@ PrefabInstance:
       value: Horror 1 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -38122,6 +38043,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
@@ -38624,6 +38549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 0}
 --- !u!114 &904844052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38933,6 +38859,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -39318,6 +39248,10 @@ PrefabInstance:
       value: Horror 1 (59)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -39573,6 +39507,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -39856,6 +39794,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -40275,6 +40217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &951641551
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -40292,37 +40235,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1565807837}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 381132065}
-    m_ColliderPaths:
-    - - X: -51300109
-        Y: -4099963
-      - X: -51300109
-        Y: 2300036
-      - X: -57699820
-        Y: 2299743
-      - X: -57699527
-        Y: -4099963
-  - m_Collider: {fileID: 1902162393}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -40471,6 +40384,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -40730,6 +40647,10 @@ PrefabInstance:
     - target: {fileID: 7607265414129116603, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -41070,6 +40991,10 @@ PrefabInstance:
       value: Horror 1 (47)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -41210,6 +41135,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -41692,6 +41621,10 @@ PrefabInstance:
       value: Horror 1 (54)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -41874,6 +41807,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -41953,6 +41890,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -42081,6 +42022,10 @@ PrefabInstance:
       value: Horror (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -42189,6 +42134,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -42331,6 +42280,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -42520,6 +42473,10 @@ PrefabInstance:
       value: Horror 1 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -42644,6 +42601,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -43593,6 +43554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1011302539
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -43610,37 +43572,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1834075853}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 832058193}
-    m_ColliderPaths:
-    - - X: -25700135
-        Y: -4099963
-      - X: -25700135
-        Y: 2300036
-      - X: -32099840
-        Y: 2299743
-      - X: -32099547
-        Y: -4099963
-  - m_Collider: {fileID: 1134640602}
-    m_ColliderPaths:
-    - - X: -32100195
-        Y: -4100039
-      - X: -32100195
-        Y: 2299960
-      - X: -57699900
-        Y: 2299667
-      - X: -57699607
-        Y: -4100039
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -43789,6 +43721,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -44150,6 +44086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1027561806
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -44167,37 +44104,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1657096759}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 91196068}
-    m_ColliderPaths:
-    - - X: -25700441
-        Y: -4099963
-      - X: -25700441
-        Y: 2300036
-      - X: -32100146
-        Y: 2299743
-      - X: -32099853
-        Y: -4099963
-  - m_Collider: {fileID: 1128574830}
-    m_ColliderPaths:
-    - - X: -32100501
-        Y: -4100039
-      - X: -32100501
-        Y: 2299960
-      - X: -57700204
-        Y: 2299667
-      - X: -57699911
-        Y: -4100039
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -44410,6 +44317,10 @@ PrefabInstance:
       value: Horror 1 (28)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -44534,6 +44445,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -44813,6 +44728,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -45220,6 +45139,10 @@ PrefabInstance:
       value: Horror 1 (82)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -45401,6 +45324,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -45811,6 +45738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1084120044
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -45828,27 +45756,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 792857824}
-    m_ColliderPaths:
-    - - X: -32000489
-        Y: -3200000
-      - X: -32000489
-        Y: 3200000
-      - X: -38400196
-        Y: 3199707
-      - X: -38399903
-        Y: -3200000
-  - m_Collider: {fileID: 1314401580}
-    m_ColliderPaths:
-    - - X: -25600343
-        Y: -3200000
-      - X: -25600343
-        Y: 3200000
-      - X: -32000048
-        Y: 3199707
-      - X: -31999755
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399904, y: -0.3199707}
@@ -45969,6 +45877,10 @@ PrefabInstance:
     - target: {fileID: 7607265414129116603, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -46341,6 +46253,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -46953,6 +46869,10 @@ PrefabInstance:
       value: Horror 1 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -47223,6 +47143,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -47307,6 +47231,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -47449,6 +47377,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -48274,6 +48206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 0}
 --- !u!114 &1131251168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48662,6 +48595,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -48883,6 +48820,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -49210,6 +49151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1431880100}
 --- !u!114 &1157974218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49230,6 +49172,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1157974217}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1157974217}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -49417,6 +49371,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -49942,6 +49900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1170896885
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -49959,37 +49918,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 694204428}
-    m_ColliderPaths:
-    - - X: -57700561
-        Y: -4100039
-      - X: -57700561
-        Y: 2299960
-      - X: -64100272
-        Y: 2299667
-      - X: -64099979
-        Y: -4100039
-  - m_Collider: {fileID: 145650006}
-    m_ColliderPaths:
-    - - X: -25700441
-        Y: -4099963
-      - X: -25700441
-        Y: 2300036
-      - X: -32100146
-        Y: 2299743
-      - X: -32099853
-        Y: -4099963
-  - m_Collider: {fileID: 445330100}
-    m_ColliderPaths:
-    - - X: -32100501
-        Y: -4100039
-      - X: -32100501
-        Y: 2299960
-      - X: -57700204
-        Y: 2299667
-      - X: -57699911
-        Y: -4100039
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.409998, y: -0.4099746}
@@ -50129,6 +50058,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -50404,6 +50337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1174121098
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -50421,37 +50355,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1769235959}
-    m_ColliderPaths:
-    - - X: -56762449
-        Y: -3912850
-      - X: -56764597
-        Y: 2486142
-      - X: -63159720
-        Y: 2487997
-      - X: -63157279
-        Y: -3910702
-  - m_Collider: {fileID: 1125445656}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3988430
-      - X: 167970363
-        Y: 2410562
-      - X: -56764308
-        Y: 2485757
-      - X: -56761859
-        Y: -3912942
-  - m_Collider: {fileID: 1035317766}
-    m_ColliderPaths:
-    - - X: 174367915
-        Y: -3990517
-      - X: 174365787
-        Y: 2408474
-      - X: 167970656
-        Y: 2410329
-      - X: 167973093
-        Y: -3988369
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436762, y: -0.3990517}
@@ -50530,6 +50434,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -50708,6 +50616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1176850326
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -50725,37 +50634,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 408957982}
-    m_ColliderPaths:
-    - - X: -56762449
-        Y: -3912850
-      - X: -56764597
-        Y: 2486141
-      - X: -63159720
-        Y: 2487997
-      - X: -63157279
-        Y: -3910701
-  - m_Collider: {fileID: 1225195633}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3987984
-      - X: 167970363
-        Y: 2411007
-      - X: -56764308
-        Y: 2486226
-      - X: -56761859
-        Y: -3912472
-  - m_Collider: {fileID: 1082762600}
-    m_ColliderPaths:
-    - - X: 174367915
-        Y: -3990365
-      - X: 174365787
-        Y: 2408626
-      - X: 167970656
-        Y: 2410482
-      - X: 167973093
-        Y: -3988216
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436762, y: -0.3990365}
@@ -51065,6 +50944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1907597741}
 --- !u!114 &1184286722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51085,6 +50965,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1184286721}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1184286721}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -51545,6 +51437,10 @@ PrefabInstance:
       value: Horror 1 (53)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -51899,6 +51795,10 @@ PrefabInstance:
       value: Horror 1 (76)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -52221,6 +52121,10 @@ PrefabInstance:
       value: Horror 1 (36)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -52472,6 +52376,10 @@ PrefabInstance:
       value: Horror 1 (74)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -52596,6 +52504,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -52786,6 +52698,10 @@ PrefabInstance:
       value: Horror 1 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -52910,6 +52826,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -53908,6 +53828,10 @@ PrefabInstance:
       value: Horror 1 (45)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -54130,6 +54054,10 @@ PrefabInstance:
       value: Horror 1 (81)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -54254,6 +54182,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -54544,6 +54476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1291047547
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -54561,37 +54494,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1566551755}
-    m_ColliderPaths:
-    - - X: -56762449
-        Y: -3912850
-      - X: -56764597
-        Y: 2486142
-      - X: -63159720
-        Y: 2487997
-      - X: -63157279
-        Y: -3910702
-  - m_Collider: {fileID: 880117269}
-    m_ColliderPaths:
-    - - X: 167972811
-        Y: -3988201
-      - X: 167970667
-        Y: 2410791
-      - X: -56764000
-        Y: 2485986
-      - X: -56761555
-        Y: -3912713
-  - m_Collider: {fileID: 345893933}
-    m_ColliderPaths:
-    - - X: 174368219
-        Y: -3990441
-      - X: 174366091
-        Y: 2408551
-      - X: 167970960
-        Y: 2410406
-      - X: 167973397
-        Y: -3988293
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436792, y: -0.3990441}
@@ -54927,6 +54830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1296036165
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -54944,37 +54848,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 2014108924}
-    m_ColliderPaths:
-    - - X: -56762753
-        Y: -3912850
-      - X: -56764901
-        Y: 2486141
-      - X: -63160024
-        Y: 2487997
-      - X: -63157583
-        Y: -3910701
-  - m_Collider: {fileID: 1556360044}
-    m_ColliderPaths:
-    - - X: 167972651
-        Y: -3988289
-      - X: 167970523
-        Y: 2410702
-      - X: -56764156
-        Y: 2485921
-      - X: -56761707
-        Y: -3912777
-  - m_Collider: {fileID: 1164915805}
-    m_ColliderPaths:
-    - - X: 174368075
-        Y: -3990975
-      - X: 174365931
-        Y: 2408016
-      - X: 167970816
-        Y: 2409872
-      - X: 167973237
-        Y: -3988826
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436777, y: -0.3990975}
@@ -55687,6 +55561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1314418454
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -55704,37 +55579,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1320668902}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 721395072}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
-  - m_Collider: {fileID: 1514786066}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -55947,6 +55792,10 @@ PrefabInstance:
       value: Horror (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -56094,6 +55943,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992196, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
@@ -56473,6 +56326,10 @@ PrefabInstance:
       value: Horror 1 (66)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -56597,6 +56454,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -56909,6 +56770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1336554535
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -56926,37 +56788,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 835568433}
-    m_ColliderPaths:
-    - - X: -56762753
-        Y: -3912850
-      - X: -56764901
-        Y: 2486141
-      - X: -63160024
-        Y: 2487997
-      - X: -63157583
-        Y: -3910701
-  - m_Collider: {fileID: 1042252375}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3988595
-      - X: 167970363
-        Y: 2410397
-      - X: -56764308
-        Y: 2485616
-      - X: -56761859
-        Y: -3913082
-  - m_Collider: {fileID: 592028036}
-    m_ColliderPaths:
-    - - X: 174367915
-        Y: -3990670
-      - X: 174365787
-        Y: 2408321
-      - X: 167970656
-        Y: 2410177
-      - X: 167973093
-        Y: -3988521
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436762, y: -0.399067}
@@ -57135,6 +56967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 0}
 --- !u!114 &1342900506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57563,6 +57396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1357821207
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -57580,27 +57414,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 353030025}
-    m_ColliderPaths:
-    - - X: -32000183
-        Y: -3200000
-      - X: -32000183
-        Y: 3200000
-      - X: -38399888
-        Y: 3199707
-      - X: -38399595
-        Y: -3200000
-  - m_Collider: {fileID: 122867134}
-    m_ColliderPaths:
-    - - X: -25600037
-        Y: -3200000
-      - X: -25600037
-        Y: 3200000
-      - X: -31999742
-        Y: 3199707
-      - X: -31999449
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399596, y: -0.3199707}
@@ -57688,6 +57502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1360946980
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -57705,27 +57520,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 490621091}
-    m_ColliderPaths:
-    - - X: -32000489
-        Y: -3200000
-      - X: -32000489
-        Y: 3200000
-      - X: -38400196
-        Y: 3199707
-      - X: -38399903
-        Y: -3200000
-  - m_Collider: {fileID: 1457256700}
-    m_ColliderPaths:
-    - - X: -25600343
-        Y: -3200000
-      - X: -25600343
-        Y: 3200000
-      - X: -32000048
-        Y: 3199707
-      - X: -31999755
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399904, y: -0.3199707}
@@ -58873,6 +58668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1366955155
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -58890,37 +58686,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 2108699548}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 1585589580}
-    m_ColliderPaths:
-    - - X: -25700441
-        Y: -4099963
-      - X: -25700441
-        Y: 2300036
-      - X: -32100146
-        Y: 2299743
-      - X: -32099853
-        Y: -4099963
-  - m_Collider: {fileID: 965187421}
-    m_ColliderPaths:
-    - - X: -32100195
-        Y: -4100039
-      - X: -32100195
-        Y: 2299960
-      - X: -57699900
-        Y: 2299667
-      - X: -57699607
-        Y: -4100039
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -59732,6 +59498,10 @@ PrefabInstance:
       value: Horror 1 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -60269,6 +60039,10 @@ PrefabInstance:
       value: Horror 1 (34)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -60624,7 +60398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -61026,6 +60800,10 @@ PrefabInstance:
       value: Horror 1 (44)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -61334,6 +61112,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1431394227}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -61451,6 +61241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 478554570}
 --- !u!82 &1431394228
 AudioSource:
   m_ObjectHideFlags: 0
@@ -61562,7 +61353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1431880101
 Transform:
   m_ObjectHideFlags: 0
@@ -61912,6 +61703,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399293
@@ -62500,6 +62295,10 @@ PrefabInstance:
       value: Horror 1 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -62854,6 +62653,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -63306,6 +63109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 290157386}
 --- !u!114 &1466683537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63326,6 +63130,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1466683536}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466683536}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -63495,6 +63311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1469296185
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -63512,37 +63329,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 632364637}
-    m_ColliderPaths:
-    - - X: -56763061
-        Y: -3913003
-      - X: -56765205
-        Y: 2485989
-      - X: -63160328
-        Y: 2487844
-      - X: -63157891
-        Y: -3910855
-  - m_Collider: {fileID: 1347625976}
-    m_ColliderPaths:
-    - - X: 167972203
-        Y: -3988430
-      - X: 167970059
-        Y: 2410562
-      - X: -56764612
-        Y: 2485757
-      - X: -56762163
-        Y: -3912942
-  - m_Collider: {fileID: 1401860991}
-    m_ColliderPaths:
-    - - X: 174367611
-        Y: -3990670
-      - X: 174365483
-        Y: 2408322
-      - X: 167970352
-        Y: 2410177
-      - X: 167972789
-        Y: -3988522
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436731, y: -0.399067}
@@ -63713,6 +63500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
@@ -64031,6 +63822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1479940490
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -64048,37 +63840,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1429498790}
-    m_ColliderPaths:
-    - - X: -56762753
-        Y: -3913003
-      - X: -56764901
-        Y: 2485989
-      - X: -63160024
-        Y: 2487844
-      - X: -63157583
-        Y: -3910855
-  - m_Collider: {fileID: 208208588}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3988430
-      - X: 167970363
-        Y: 2410562
-      - X: -56764308
-        Y: 2485757
-      - X: -56761859
-        Y: -3912942
-  - m_Collider: {fileID: 1802375998}
-    m_ColliderPaths:
-    - - X: 174367611
-        Y: -3990517
-      - X: 174365483
-        Y: 2408474
-      - X: 167970352
-        Y: 2410329
-      - X: 167972789
-        Y: -3988369
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436731, y: -0.3990517}
@@ -64339,6 +64101,10 @@ PrefabInstance:
       value: Horror 1 (42)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -64594,6 +64360,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -65019,6 +64789,10 @@ PrefabInstance:
       value: Horror 1 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -65306,6 +65080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1513238744
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -65323,27 +65098,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 2135597276}
-    m_ColliderPaths:
-    - - X: -57700561
-        Y: -4099963
-      - X: -57700561
-        Y: 2300036
-      - X: -64100272
-        Y: 2299743
-      - X: -64099979
-        Y: -4099963
-  - m_Collider: {fileID: 971064816}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.409998, y: -0.409967}
@@ -65592,6 +65347,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -65996,6 +65755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1525234042
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -66013,27 +65773,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 2136761705}
-    m_ColliderPaths:
-    - - X: -32000489
-        Y: -3200000
-      - X: -32000489
-        Y: 3200000
-      - X: -38400196
-        Y: 3199707
-      - X: -38399903
-        Y: -3200000
-  - m_Collider: {fileID: 5170854}
-    m_ColliderPaths:
-    - - X: -25600343
-        Y: -3200000
-      - X: -25600343
-        Y: 3200000
-      - X: -32000048
-        Y: 3199707
-      - X: -31999755
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399904, y: -0.3199707}
@@ -66111,6 +65851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1526088817
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -66128,27 +65869,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 652262217}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 1297726236}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -66378,6 +66099,10 @@ PrefabInstance:
       value: Horror 1 (45)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -66502,6 +66227,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -66687,6 +66416,10 @@ PrefabInstance:
       value: Horror (12)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399596
       objectReference: {fileID: 0}
@@ -66839,6 +66572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1543248961
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -66856,87 +66590,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1881993077}
-    m_ColliderPaths:
-    - - X: -57700561
-        Y: -4099963
-      - X: -57700561
-        Y: 2300036
-      - X: -64100272
-        Y: 2299743
-      - X: -64099979
-        Y: -4099963
-  - m_Collider: {fileID: 1501718254}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
-  - m_Collider: {fileID: 99444479}
-    m_ColliderPaths:
-    - - X: 366499579
-        Y: -22900012
-      - X: 366499579
-        Y: -16500013
-      - X: 360099872
-        Y: -16500306
-      - X: 360100165
-        Y: -22900012
-  - m_Collider: {fileID: 254495924}
-    m_ColliderPaths:
-    - - X: 372899707
-        Y: -22900012
-      - X: 372899707
-        Y: -16500013
-      - X: 366500000
-        Y: -16500306
-      - X: 366500293
-        Y: -22900012
-  - m_Collider: {fileID: 212761766}
-    m_ColliderPaths:
-    - - X: 562999515
-        Y: -148400032
-      - X: 562999515
-        Y: -142000048
-      - X: 556599808
-        Y: -142000341
-      - X: 556600101
-        Y: -148400032
-  - m_Collider: {fileID: 999125965}
-    m_ColliderPaths:
-    - - X: 556599387
-        Y: -148400032
-      - X: 556599387
-        Y: -142000048
-      - X: 550199680
-        Y: -142000341
-      - X: 550199973
-        Y: -148400032
-  - m_Collider: {fileID: 413213311}
-    m_ColliderPaths:
-    - - X: 584299547
-        Y: -136899952
-      - X: 584299547
-        Y: -130499952
-      - X: 577899840
-        Y: -130500245
-      - X: 577900133
-        Y: -136899952
-  - m_Collider: {fileID: 454441447}
-    m_ColliderPaths:
-    - - X: 590699675
-        Y: -136899952
-      - X: 590699675
-        Y: -130499952
-      - X: 584300032
-        Y: -130500245
-      - X: 584300325
-        Y: -136899952
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.409998, y: -0.409967}
@@ -67197,6 +66851,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -67541,6 +67199,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -68182,6 +67844,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -68266,6 +67932,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -68598,6 +68268,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -69004,6 +68678,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -69846,6 +69524,10 @@ PrefabInstance:
       value: Horror 1 (58)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -70196,6 +69878,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -70275,6 +69961,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -70955,6 +70645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1647778828
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -70972,27 +70663,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1101529197}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4100039
-      - X: -57700253
-        Y: 2299960
-      - X: -64099964
-        Y: 2299667
-      - X: -64099671
-        Y: -4100039
-  - m_Collider: {fileID: 639941306}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.4099746}
@@ -71070,6 +70741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1648625270
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -71087,27 +70759,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 54433371}
-    m_ColliderPaths:
-    - - X: -32000489
-        Y: -3200000
-      - X: -32000489
-        Y: 3200000
-      - X: -38400196
-        Y: 3199707
-      - X: -38399903
-        Y: -3200000
-  - m_Collider: {fileID: 2127614278}
-    m_ColliderPaths:
-    - - X: -25600343
-        Y: -3200000
-      - X: -25600343
-        Y: 3200000
-      - X: -32000048
-        Y: 3199707
-      - X: -31999755
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399904, y: -0.3199707}
@@ -71622,6 +71274,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -72025,6 +71681,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -72475,6 +72135,10 @@ PrefabInstance:
       value: Horror 1 (69)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -72656,6 +72320,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -73089,6 +72757,10 @@ PrefabInstance:
       value: Horror 1 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -73426,6 +73098,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -73510,6 +73186,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -73636,6 +73316,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -73769,6 +73453,10 @@ PrefabInstance:
       value: Horror (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399596
       objectReference: {fileID: 0}
@@ -73877,6 +73565,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -74849,6 +74541,10 @@ PrefabInstance:
       value: Horror 1 (35)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -74973,6 +74669,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -75138,6 +74838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1739944033
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -75155,37 +74856,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1731036507}
-    m_ColliderPaths:
-    - - X: -56762753
-        Y: -3912850
-      - X: -56764901
-        Y: 2486141
-      - X: -63160024
-        Y: 2487997
-      - X: -63157583
-        Y: -3910701
-  - m_Collider: {fileID: 1722567560}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3988289
-      - X: 167970363
-        Y: 2410702
-      - X: -56764308
-        Y: 2485921
-      - X: -56761859
-        Y: -3912777
-  - m_Collider: {fileID: 435638728}
-    m_ColliderPaths:
-    - - X: 174367915
-        Y: -3990365
-      - X: 174365787
-        Y: 2408626
-      - X: 167970656
-        Y: 2410482
-      - X: 167973093
-        Y: -3988216
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436762, y: -0.3990365}
@@ -75225,6 +74896,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -75348,6 +75023,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
@@ -75595,6 +75274,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -76412,6 +76095,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -76501,6 +76188,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -77077,6 +76768,10 @@ PrefabInstance:
       value: Horror
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399596
       objectReference: {fileID: 0}
@@ -77363,6 +77058,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399293
       objectReference: {fileID: 0}
@@ -77534,6 +77233,10 @@ PrefabInstance:
       value: Horror 1 (61)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -77700,6 +77403,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -77789,6 +77496,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -77957,6 +77668,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -78043,6 +77758,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
@@ -78282,6 +78001,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -78524,6 +78247,10 @@ PrefabInstance:
       value: Horror 1 (21)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -78650,6 +78377,10 @@ PrefabInstance:
       value: Horror 1 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -78769,6 +78500,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -79020,6 +78755,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -79306,6 +79045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 290157386}
 --- !u!114 &1860229271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79326,6 +79066,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1860229270}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1860229270}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -79456,6 +79208,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -79779,7 +79535,7 @@ GameObject:
   - component: {fileID: 1867119985}
   - component: {fileID: 1867119984}
   m_Layer: 0
-  m_Name: S9-B
+  m_Name: S10-B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79912,6 +79668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 0}
 --- !u!114 &1867119986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80467,6 +80224,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -81158,6 +80919,10 @@ PrefabInstance:
       value: Horror 1 (39)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -81306,6 +81071,10 @@ PrefabInstance:
     - target: {fileID: 7607265414129116603, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -81933,6 +81702,10 @@ PrefabInstance:
       value: Horror 1 (23)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5600636
       objectReference: {fileID: 0}
@@ -82119,6 +81892,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -82340,6 +82117,10 @@ PrefabInstance:
       value: Horror 1 (52)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -82469,7 +82250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1907597742
 Transform:
   m_ObjectHideFlags: 0
@@ -82639,6 +82420,10 @@ PrefabInstance:
       value: Horror 1 (71)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -82763,6 +82548,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -83028,6 +82817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1932779901}
 --- !u!114 &1913245264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83048,6 +82838,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1913245263}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1913245263}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -83695,6 +83497,10 @@ PrefabInstance:
       value: Horror 1 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -83955,6 +83761,10 @@ PrefabInstance:
       value: Horror 1 (41)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -84100,7 +83910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1932779902
 Transform:
   m_ObjectHideFlags: 0
@@ -84304,6 +84114,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -84725,6 +84539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &1945674452
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -84742,27 +84557,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1555695651}
-    m_ColliderPaths:
-    - - X: -32000183
-        Y: -3200000
-      - X: -32000183
-        Y: 3200000
-      - X: -38399888
-        Y: 3199707
-      - X: -38399595
-        Y: -3200000
-  - m_Collider: {fileID: 1126335402}
-    m_ColliderPaths:
-    - - X: -25600037
-        Y: -3200000
-      - X: -25600037
-        Y: 3200000
-      - X: -31999742
-        Y: 3199707
-      - X: -31999449
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399596, y: -0.3199707}
@@ -85519,6 +85314,10 @@ PrefabInstance:
       value: Horror 1 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -85844,6 +85643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 0}
 --- !u!114 &1961603010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86399,6 +86199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1932779901}
 --- !u!114 &1965397734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86419,6 +86220,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1965397733}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1965397733}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -86591,6 +86404,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -2.5601246
       objectReference: {fileID: 0}
@@ -86675,6 +86492,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -87228,7 +87049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1982158217
 Transform:
   m_ObjectHideFlags: 0
@@ -87302,6 +87123,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -87423,6 +87248,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -88046,6 +87875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &2011159933
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -88063,37 +87893,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1096742010}
-    m_ColliderPaths:
-    - - X: -56762753
-        Y: -3913003
-      - X: -56764901
-        Y: 2485989
-      - X: -63160024
-        Y: 2487844
-      - X: -63157583
-        Y: -3910855
-  - m_Collider: {fileID: 1166846056}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3988278
-      - X: 167970363
-        Y: 2410714
-      - X: -56764308
-        Y: 2485909
-      - X: -56761859
-        Y: -3912789
-  - m_Collider: {fileID: 2127489971}
-    m_ColliderPaths:
-    - - X: 174367915
-        Y: -3990517
-      - X: 174365787
-        Y: 2408474
-      - X: 167970656
-        Y: 2410329
-      - X: 167973093
-        Y: -3988369
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436762, y: -0.3990517}
@@ -89231,6 +89031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &2041245175
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -89248,37 +89049,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 967410055}
-    m_ColliderPaths:
-    - - X: -56762753
-        Y: -3912698
-      - X: -56764901
-        Y: 2486294
-      - X: -63160024
-        Y: 2488149
-      - X: -63157583
-        Y: -3910550
-  - m_Collider: {fileID: 1747715249}
-    m_ColliderPaths:
-    - - X: 167972203
-        Y: -3988278
-      - X: 167970059
-        Y: 2410714
-      - X: -56764612
-        Y: 2485909
-      - X: -56762163
-        Y: -3912789
-  - m_Collider: {fileID: 844374539}
-    m_ColliderPaths:
-    - - X: 174367611
-        Y: -3990517
-      - X: 174365483
-        Y: 2408474
-      - X: 167970352
-        Y: 2410329
-      - X: 167972789
-        Y: -3988369
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436731, y: -0.3990517}
@@ -89318,6 +89089,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -89583,6 +89358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 1431880100}
 --- !u!114 &2046278275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89603,6 +89379,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2046278274}
         m_TargetAssemblyTypeName: Platform, Assembly-CSharp
         m_MethodName: PlayDiscordNotificationSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2046278274}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -89735,6 +89523,10 @@ PrefabInstance:
       value: Horror 1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -89854,6 +89646,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -90023,6 +89819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &2050793912
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -90040,27 +89837,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1090585760}
-    m_ColliderPaths:
-    - - X: -32000183
-        Y: -3200000
-      - X: -32000183
-        Y: 3200000
-      - X: -38399888
-        Y: 3199707
-      - X: -38399595
-        Y: -3200000
-  - m_Collider: {fileID: 1614574477}
-    m_ColliderPaths:
-    - - X: -25600037
-        Y: -3200000
-      - X: -25600037
-        Y: 3200000
-      - X: -31999742
-        Y: 3199707
-      - X: -31999449
-        Y: -3200000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -3.8399596, y: -0.3199707}
@@ -90575,6 +90352,10 @@ PrefabInstance:
       value: Horror 1 (46)
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -90799,6 +90580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &2089902163
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -90816,27 +90598,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 717792493}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 1024636926}
-    m_ColliderPaths:
-    - - X: -51300413
-        Y: -4099963
-      - X: -51300413
-        Y: 2300036
-      - X: -57700124
-        Y: 2299743
-      - X: -57699831
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -91012,6 +90774,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -91308,6 +91074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &2106532788
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -91325,37 +91092,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1551067910}
-    m_ColliderPaths:
-    - - X: -56762601
-        Y: -3912850
-      - X: -56764749
-        Y: 2486141
-      - X: -63159872
-        Y: 2487997
-      - X: -63157431
-        Y: -3910701
-  - m_Collider: {fileID: 438765635}
-    m_ColliderPaths:
-    - - X: 167972507
-        Y: -3987984
-      - X: 167970363
-        Y: 2411007
-      - X: -56764308
-        Y: 2486226
-      - X: -56761859
-        Y: -3912472
-  - m_Collider: {fileID: 2025200652}
-    m_ColliderPaths:
-    - - X: 174368075
-        Y: -3990365
-      - X: 174365931
-        Y: 2408626
-      - X: 167970816
-        Y: 2410482
-      - X: 167973237
-        Y: -3988216
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 17.436777, y: -0.3990365}
@@ -91504,6 +91241,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -91951,6 +91692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 0}
+  nextSection: {fileID: 0}
 --- !u!66 &2115960389
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -91968,37 +91710,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1125674227}
-    m_ColliderPaths:
-    - - X: -57700253
-        Y: -4099963
-      - X: -57700253
-        Y: 2300036
-      - X: -64099964
-        Y: 2299743
-      - X: -64099671
-        Y: -4099963
-  - m_Collider: {fileID: 1435541901}
-    m_ColliderPaths:
-    - - X: 141340267
-        Y: -4099963
-      - X: 141340267
-        Y: 2300036
-      - X: 134940560
-        Y: 2299743
-      - X: 134940853
-        Y: -4099963
-  - m_Collider: {fileID: 2052236206}
-    m_ColliderPaths:
-    - - X: 134940011
-        Y: -4099963
-      - X: 134940011
-        Y: 2300036
-      - X: -57699700
-        Y: 2299743
-      - X: -57699407
-        Y: -4099963
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -6.4099674, y: -0.409967}
@@ -92038,6 +91750,10 @@ PrefabInstance:
     - target: {fileID: 3151233635590462400, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_Name
       value: Horror (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -92148,6 +91864,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -92393,6 +92113,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -93911,6 +93635,10 @@ PrefabInstance:
       value: Horror (6)
       objectReference: {fileID: 0}
     - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151233635590462401, guid: 7c003746899d3b84fbdf8dfb8f55bfd9, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -94019,6 +93747,10 @@ PrefabInstance:
     - target: {fileID: 5985982532535442252, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_Name
       value: Horror 1 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -94670,6 +94402,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 530984477013649634}
+        m_TargetAssemblyTypeName: Platform, Assembly-CSharp
+        m_MethodName: EnableNextSection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onInitialize:
     m_PersistentCalls:
       m_Calls: []
@@ -94686,6 +94430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: 8d6d91fc7962d0849aa9439abc526a7a, type: 3}
+  nextSection: {fileID: 478554570}
 --- !u!82 &530984477013649635
 AudioSource:
   m_ObjectHideFlags: 0
@@ -95074,6 +94819,10 @@ PrefabInstance:
       value: Horror
       objectReference: {fileID: 0}
     - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5985982532535442253, guid: 7aed7c0015185d64dbeb33fe70877040, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -95293,7 +95042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2962494793531992198, guid: fd7d9919a97d5bd41943ce3203459e6c, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
@@ -95465,6 +95214,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290157387}
     m_Modifications:
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_ColliderPaths.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7607265414179354781, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_Name
       value: Bunny
