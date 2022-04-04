@@ -3,7 +3,9 @@ guid: 3abd5a5a3e80e4df1b6bcee5a53450b1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - discordJoin: {fileID: 8300000, guid: 811022999d0da436e94c603b52a3978a, type: 3}
+  - discordLeave: {fileID: 8300000, guid: b905ee5ee77324a3ca6b1605d1bc32c5, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
