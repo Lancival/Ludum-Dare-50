@@ -171,7 +171,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Clamp fall speed
-        if (velocity.y < -maxFallSpeed) { velocity.y = maxFallSpeed; }
+        if (velocity.y < -maxFallSpeed) { velocity.y = -maxFallSpeed; }
     }
 
     public void Move(InputAction.CallbackContext context)
