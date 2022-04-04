@@ -29,4 +29,5 @@ public class SettingsScreenHandler : MonoBehaviour
     public void ChangeVoiceVolume(float volume) => Settings.VoiceVolume.Value = volume;
     public void ChangeSfxVolume(float volume) => Settings.SfxVolume.Value = volume;
     public void ChangeSubtitles(bool enabled) => Settings.Subtitles.Value = enabled;
+    public void ChangePause(bool paused) => Settings.paused = paused;
 }

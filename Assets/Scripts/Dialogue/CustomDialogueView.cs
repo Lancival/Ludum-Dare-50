@@ -46,6 +46,7 @@ public class CustomDialogueView : DialogueViewBase
         pendingLines = new Queue<LocalizedLine>();
 
         Settings.Subtitles.onChange += SubtitleVisibilityChange;
+        Settings.onPause += PauseHandler;
     }
 
     void OnDestroy()
@@ -54,6 +55,7 @@ public class CustomDialogueView : DialogueViewBase
         {
             _instance = null;
             Settings.Subtitles.onChange -= SubtitleVisibilityChange;
+            Settings.onPause += PauseHandler;
         }
     }
 
@@ -90,6 +92,15 @@ public class CustomDialogueView : DialogueViewBase
         }
     }
 
+    private void PauseHandler(bool paused)
+    {
+        Debug.Log(paused);
+        if (paused)
+            audioSource.Pause();
+        if (!paused)
+            audioSource.UnPause();
+    }
+
     private void ClearOptions()
     {
         foreach (CustomOptionView option in optionViews)
@@ -118,8 +129,11 @@ public class CustomDialogueView : DialogueViewBase
                 AudioClip clip = audioLine.AudioClip;
                 if (clip != null)
                 {
-                    audioSource.PlayOneShot(clip);
-                    yield return new WaitForSeconds(clip.length + delay);
+                    // Play audio clip and wait for it to finish
+                    audioSource.clip = clip;
+                    audioSource.Play();
+                    yield return new WaitUntil(() => !Settings.paused && !audioSource.isPlaying);
+                    yield return new WaitForSeconds(delay);
                 }
                 else
                 {
