@@ -60,8 +60,18 @@ Peter: What do you think? #line:P31
     Ben: Hey, you upset Caroline. #line:B38
     Richard: Not cool... #line:R39
     Megan: Er, I think we should just go with the rabbit idea. If that's okay with... most of us? #line:M40
-    <<art bunny>>
-    <<art bakeryHouse>>
+    <<art Rabbit1>>
+    <<art Rabbit2>>
+    <<art Bakery1>>
+    <<art Bakery2>>
+    <<art Bakery3>>
+    <<art Bakery4>>
+    <<art Bakery5>>
+    <<art Bakery6>>
+    <<art bakedGood>>
+    <<art bakedGood1>>
+    <<art BakeryHouse>>
+    <<art BakeryHouse2>>
     Richard: I'm okay with rabbits, but what would the gameplay be though? #line:R41
 
 <<customWait 3>>
