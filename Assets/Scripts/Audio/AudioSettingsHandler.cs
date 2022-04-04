@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using static AudioUtility;
+using static Settings;
 
 [DisallowMultipleComponent]
-
 public class AudioSettingsHandler : MonoBehaviour
 {
 
-    [SerializeField] private AudioMixer mixer;
+    [Tooltip("The AudioMixer whose groups this handler should modify.")]
+        [SerializeField] private AudioMixer mixer;
     private static AudioSettingsHandler instance = null;
 
     void Awake()
@@ -21,35 +23,40 @@ public class AudioSettingsHandler : MonoBehaviour
             Debug.LogWarning("Another instance of AudioSettingsHandler already exists.");
             Destroy(this);
         }
+
         instance = this;
-        Settings.MasterVolume.onChange += UpdateMasterVolume;
-        Settings.MusicVolume.onChange += UpdateMusicVolume;
-        Settings.SfxVolume.onChange += UpdateSfxVolume;
-        Settings.VoiceVolume.onChange += UpdateVoiceVolume;
+
+        // Subscribe to audio change events
+        MasterVolume.onChange += UpdateMasterVolume;
+        MusicVolume.onChange += UpdateMusicVolume;
+        SfxVolume.onChange += UpdateSfxVolume;
+        VoiceVolume.onChange += UpdateVoiceVolume;
     }
 
+    // Update AudioMixerGroups at the start of the scene
     void Start()
     {
-        UpdateMasterVolume(Settings.MasterVolume.Value);
-        UpdateMusicVolume(Settings.MusicVolume.Value);
-        UpdateSfxVolume(Settings.SfxVolume.Value);
-        UpdateVoiceVolume(Settings.VoiceVolume.Value);
+        foreach (Setting<float> audioSetting in Settings.AudioSettings)
+            UpdateVolume(audioSetting.name, audioSetting.Value);
     }
 
+    // If this handler wasn't destroyed immediately, unsubscribe from settings change events
     void OnDestroy()
     {
         if (instance == this)
         {
             instance = null;
-            Settings.MasterVolume.onChange -= UpdateMasterVolume;
-            Settings.MusicVolume.onChange -= UpdateMusicVolume;
-            Settings.SfxVolume.onChange -= UpdateSfxVolume;
-            Settings.VoiceVolume.onChange -= UpdateVoiceVolume;
+            MasterVolume.onChange -= UpdateMasterVolume;
+            MusicVolume.onChange -= UpdateMusicVolume;
+            SfxVolume.onChange -= UpdateSfxVolume;
+            VoiceVolume.onChange -= UpdateVoiceVolume;
         }
     }
 
-    private void UpdateMasterVolume(float volume) => mixer.SetFloat("Master Volume", AudioUtility.VolumeToDecibels(volume));
-    private void UpdateMusicVolume(float volume) => mixer.SetFloat("Music Volume", AudioUtility.VolumeToDecibels(volume));
-    private void UpdateSfxVolume(float volume) => mixer.SetFloat("Sfx Volume", AudioUtility.VolumeToDecibels(volume));
-    private void UpdateVoiceVolume(float volume) => mixer.SetFloat("Voice Volume", AudioUtility.VolumeToDecibels(volume));
+    // Helper functions to update AudioMixerGroup volumes
+    private void UpdateVolume(string name, float volume) => mixer.SetFloat(name, VolumeToDecibels(volume));
+    private void UpdateMasterVolume(float volume) => mixer.SetFloat("Master Volume", VolumeToDecibels(volume));
+    private void UpdateMusicVolume(float volume) => mixer.SetFloat("Music Volume", VolumeToDecibels(volume));
+    private void UpdateSfxVolume(float volume) => mixer.SetFloat("Sfx Volume", VolumeToDecibels(volume));
+    private void UpdateVoiceVolume(float volume) => mixer.SetFloat("Voice Volume", VolumeToDecibels(volume));
 }

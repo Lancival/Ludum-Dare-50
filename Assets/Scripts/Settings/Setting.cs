@@ -11,20 +11,17 @@ using UnityEngine;
 /// <seealso cref="StringSetting"/>
 /// <seealso cref="BoolSetting"/>
 public abstract class Setting<T>
-{
-    /*///<summary>
-    /// Delegate that is called when <see cref="Setting{T}.onChange"/> is invoked.
-    ///</summary>
-    ///<typeparam name="newValue">The new value that the setting is changed to.</typeparam>
-    public delegate void SettingChangeHandler(T newValue);*/
-    
+{   
     /// <summary>The default value this setting should take on if no corresponding value is stored in <see cref="PlayerPrefs"/>.</summary>
     protected T _defaultValue;
+
     /// <summary>The name of this setting, which is used as the key for retrieving values from <see cref="PlayerPrefs"/>.</summary>
     protected string _name;
+    public string name => _name;
+
     /// <summary>The event which is invoked when the value of the setting is changed.</summary>
-    /*/// <seealso cref="Setting{T}.SettingChangeHandler(T)"/>*/
     public event System.Action<T> onChange;
+
     /// <summary>This property retrieves and stores values to and from <see cref="PlayerPrefs"/>.</summary>
     /// <value>The value of this setting.</value>
     public abstract T Value {get; set;}
