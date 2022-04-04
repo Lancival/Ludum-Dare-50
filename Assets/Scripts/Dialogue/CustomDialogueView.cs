@@ -101,10 +101,7 @@ public class CustomDialogueView : DialogueViewBase
     private void ClearOptions()
     {
         foreach (CustomOptionView option in optionViews)
-        {
-            option.onOptionChosen.RemoveAllListeners();
-            option.UpdateText("");
-        }
+            option.Clear();
     }
 
     // Run through the queued lines, outputting them to text and audio
