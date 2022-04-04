@@ -56,14 +56,6 @@ public class SceneLoader : MonoBehaviour
 			Debug.LogError("Scene loading operation failed.");
 			yield break;
 		}
-
-		/*// Wait until the next scene has loaded and minDuration seconds have passed
-		sceneLoad.allowSceneActivation = false;
-		while (Time.time - startTime < minDuration && !sceneLoad.isDone)
-		{
-			yield return null;
-		}
-		sceneLoad.allowSceneActivation = true;*/
 	}
 
 	// Wrapper function which invokes the onSceneLoad event and loads the sceneName scene

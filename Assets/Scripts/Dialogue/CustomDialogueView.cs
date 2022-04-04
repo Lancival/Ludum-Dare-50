@@ -3,18 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 using UnityEngine.Audio;
 using Yarn.Unity;
 
 public class CustomDialogueView : DialogueViewBase
 {
-
     [Header("Audio")]
         [Tooltip("AudioSource that should play the voiceovers.")]
             [SerializeField] private AudioSource audioSource;
         [Tooltip("Amount of time between voiceovers, in seconds.")]
             [SerializeField] private float delay = 0.5f;
+            private readonly float noAudioDelay = 3f;
 
     [Header("Text")]
         [Tooltip("TextMeshPro text component that should print the dialogue line.")]
@@ -28,7 +27,7 @@ public class CustomDialogueView : DialogueViewBase
         [Tooltip("List of CustomOptionViews that will display the dialogue options.")]
             public List<CustomOptionView> optionViews = new List<CustomOptionView>();
 
-    private Queue<LocalizedLine> pendingLines;
+    private Queue<LocalizedLine> pendingLines = new Queue<LocalizedLine>();
     private List<CustomOptionView> usedOptionViews;
     private Coroutine running = null;
 
@@ -37,28 +36,32 @@ public class CustomDialogueView : DialogueViewBase
 
     void Awake()
     {
+        // Check if another CustomDialogueView already exists.
         if (_instance != null)
         {
             Debug.LogWarning("Another CustomDialogueView component already exists.");
             Destroy(this);
+            return;
         }
-        _instance = this;
-        pendingLines = new Queue<LocalizedLine>();
 
-        Settings.Subtitles.onChange += SubtitleVisibilityChange;
+        // Subscribe to Settings
+        _instance = this;
+        Settings.Subtitles.onChange += SubtitleHandler;
         Settings.onPause += PauseHandler;
     }
 
+    // If this CustomDialogueView was not immediately destroyed, unsubscribe from Settings
     void OnDestroy()
     {
         if (_instance == this)
         {
             _instance = null;
-            Settings.Subtitles.onChange -= SubtitleVisibilityChange;
-            Settings.onPause += PauseHandler;
+            Settings.Subtitles.onChange -= SubtitleHandler;
+            Settings.onPause -= PauseHandler;
         }
     }
 
+    // Wait until the CustomDialogueView is not playing any lines
     public static IEnumerator WaitUntilNotRunning()
     {
         if (instance != null)
@@ -67,21 +70,17 @@ public class CustomDialogueView : DialogueViewBase
     }
 
     [YarnCommand("customWait")]
-    private static IEnumerator CustomWaitStatic(float length)
+    private static IEnumerator CustomWait(float length)
     {
         if (instance != null)
-            yield return instance.CustomWait(length);
+        {
+            yield return WaitUntilNotRunning();
+            yield return new WaitForSeconds(length);
+        }
         yield break;
     }
 
-    private IEnumerator CustomWait(float length)
-    {
-        yield return WaitUntilNotRunning();
-        yield return new WaitForSeconds(length);
-        yield break;
-    }
-
-    private void SubtitleVisibilityChange(bool subtitle)
+    private void SubtitleHandler(bool subtitle)
     {
         if (running != null)
         {
@@ -94,20 +93,16 @@ public class CustomDialogueView : DialogueViewBase
 
     private void PauseHandler(bool paused)
     {
-        Debug.Log(paused);
         if (paused)
             audioSource.Pause();
-        if (!paused)
+        else
             audioSource.UnPause();
     }
 
     private void ClearOptions()
     {
         foreach (CustomOptionView option in optionViews)
-        {
-            option.onOptionChosen.RemoveAllListeners();
-            option.UpdateText("");
-        }
+            option.Clear();
     }
 
     // Run through the queued lines, outputting them to text and audio
@@ -125,8 +120,7 @@ public class CustomDialogueView : DialogueViewBase
             // Play audio
             if (dialogueLine is AudioLocalizedLine)
             {
-                AudioLocalizedLine audioLine = (AudioLocalizedLine) dialogueLine;
-                AudioClip clip = audioLine.AudioClip;
+                AudioClip clip = ((AudioLocalizedLine) dialogueLine).AudioClip;
                 if (clip != null)
                 {
                     // Play audio clip and wait for it to finish
@@ -138,10 +132,12 @@ public class CustomDialogueView : DialogueViewBase
                 else
                 {
                     Debug.LogWarning("No AudioClip was provided for this line.");
-                    yield return new WaitForSeconds(3f);
+                    yield return new WaitForSeconds(noAudioDelay);
                 }
             }
         }
+
+        // No more pending lines
         running = null;
         fade.FadeOut();
         yield break;
@@ -196,11 +192,14 @@ public class CustomDialogueView : DialogueViewBase
                     // Handle dialogue option and clear buttons
                     onOptionSelected(dialogueOption.DialogueOptionID);
                 });
+
+            // Update the text on the optionView and invoke callbacks
             optionView.UpdateText(dialogueOption.Line.TextWithoutCharacterName.Text);
             optionView.onInitialize.Invoke();
         }
     }
 
+    /// <inheritdoc/>
     public override void UserRequestedViewAdvancement()
     {
         StopCoroutine(running);

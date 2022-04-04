@@ -4,8 +4,9 @@ public static class Settings
     // Audio
     public static Setting<float> MasterVolume = new FloatSetting("Master Volume", 1.0f);
     public static Setting<float> MusicVolume = new FloatSetting("Music Volume", 0.65f);
-    public static Setting<float> SfxVolume = new FloatSetting("Sfx Volume", 1.0f);
+    public static Setting<float> SfxVolume = new FloatSetting("Sfx Volume", 0.65f);
     public static Setting<float> VoiceVolume = new FloatSetting("Voice Volume", 1.0f);
+    public static Setting<float>[] AudioSettings = {MasterVolume, MusicVolume, SfxVolume, VoiceVolume};
 
     // Text
     public static Setting<bool> Subtitles = new BoolSetting("Subtitles", true);

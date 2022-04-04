@@ -18,6 +18,7 @@ public class StyleHandler : MonoBehaviour
         {
             Debug.LogWarning("Another StyleHandler already exists.");
             Destroy(this);
+            return;
         }
         instance = this;
     }
