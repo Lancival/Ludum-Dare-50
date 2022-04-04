@@ -31,7 +31,9 @@ public class ArtHandler : MonoBehaviour
     private IEnumerator ShowArt(string artName)
     {
         yield return CustomDialogueView.WaitUntilNotRunning();
-        StartCoroutine(SpriteFadeIn(GameObject.Find(artName)?.GetComponent<SpriteRenderer>(), 3f));
+        GameObject art = GameObject.Find(artName);
+        art.SetActive(true);
+        StartCoroutine(SpriteFadeIn(art.GetComponent<SpriteRenderer>(), 3f));
         yield break;
     }
 
