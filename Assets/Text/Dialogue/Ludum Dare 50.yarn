@@ -45,15 +45,15 @@ Peter: What do you think? #line:P31
     <<art Rabbit1>>
     <<art Rabbit2>>
     <<art Bakery1>>
-    <<art Bakery6>>
     <<art Bakery2>>
     <<art Bakery3>>
     <<art Bakery4>>
     <<art Bakery5>>
+    <<art Bakery6>>
     <<art bakedGood>>
     <<art bakedGood1>>
-    <<art bakeryHouse>>
-    <<art bakeryHouse2>>
+    <<art BakeryHouse>>
+    <<art BakeryHouse2>>
     Richard: What would the gameplay be though? #line:R35
 ->Player: This is some girly BS. #line:Pl36
     Caroline: B-but... rabbits... and cupcakes... #line:C37
