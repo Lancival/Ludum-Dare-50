@@ -19,6 +19,8 @@ public class CustomOptionView : MonoBehaviour
 
     public void Awake()
     {
+        if (textMesh == null)
+            Debug.Log(string.Format("{0} is missing a TextMeshPro text component!", gameObject.name));
         if (registerOnStart)
             Register();
     }
