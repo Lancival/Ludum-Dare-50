@@ -9,6 +9,6 @@ public static class Settings
 
     // Text
     public static Setting<bool> Subtitles = new BoolSetting("Subtitles", true);
-    public static Setting<float> TextDelay = new FloatSetting("Text Delay", 0.05f);
-    public static Setting<string> Font = new StringSetting("Font", "Arial");
+    //public static Setting<float> TextDelay = new FloatSetting("Text Delay", 0.05f);
+    //public static Setting<string> Font = new StringSetting("Font", "Arial");
 }

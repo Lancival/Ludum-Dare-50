@@ -42,8 +42,14 @@ public class SceneLoader : MonoBehaviour
 			Debug.LogWarning("Minimum duration of scene loading should be non-negative.");
 		}
 
-		// Start loading the next scene asynchronously
+		// Wait for minDuration seconds
 		float startTime = Time.time;
+		while (Time.time - startTime < minDuration)
+		{
+			yield return null;
+		}
+
+		// Start loading the next scene asynchronously
 		AsyncOperation sceneLoad = SceneManager.LoadSceneAsync(sceneName);
 		if (sceneLoad == null)
 		{
@@ -51,13 +57,13 @@ public class SceneLoader : MonoBehaviour
 			yield break;
 		}
 
-		// Wait until the next scene has loaded and minDuration seconds have passed
+		/*// Wait until the next scene has loaded and minDuration seconds have passed
 		sceneLoad.allowSceneActivation = false;
 		while (Time.time - startTime < minDuration && !sceneLoad.isDone)
 		{
 			yield return null;
 		}
-		sceneLoad.allowSceneActivation = true;
+		sceneLoad.allowSceneActivation = true;*/
 	}
 
 	// Wrapper function which invokes the onSceneLoad event and loads the sceneName scene
