@@ -4820,6 +4820,7 @@ GameObject:
   - component: {fileID: 4731525742811192251}
   - component: {fileID: 4731525742811192241}
   - component: {fileID: 4731525742811192250}
+  - component: {fileID: 1991506658573785262}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4999,6 +5000,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 7c66a390-0ce7-4ba5-bcb5-4434d36caeb6
     m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1991506658573785262}
+        m_TargetAssemblyTypeName: SettingsOpener, UI
+        m_MethodName: Options
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 384e98c7-c65a-40c5-8ea4-c89bc1360264
+    m_ActionName: Player/Options[/Keyboard/o]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -5188,6 +5205,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1991506658573785262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4731525742811192248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913a7e712470748ceba952191c7c404e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fader: {fileID: 0}
 --- !u!1 &4731525743755488156
 GameObject:
   m_ObjectHideFlags: 0

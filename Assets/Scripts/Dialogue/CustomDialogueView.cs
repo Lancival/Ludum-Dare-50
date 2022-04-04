@@ -186,4 +186,11 @@ public class CustomDialogueView : DialogueViewBase
             optionView.onInitialize.Invoke();
         }
     }
+
+    public override void UserRequestedViewAdvancement()
+    {
+        StopCoroutine(running);
+        audioSource.Stop();
+        running = StartCoroutine(RunPendingLines());
+    }
 }
