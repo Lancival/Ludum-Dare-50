@@ -73786,6 +73786,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 405929892}
     m_Modifications:
     - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_GeometryType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354780, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
       value: -3.8399904
       objectReference: {fileID: 0}
@@ -73881,6 +73885,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7607265414179354783, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 51d9a2d21a3f448429f340f084bedc69, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f56942c630e0e24f9095d455cbb8d57, type: 3}
 --- !u!1001 &1726667446
@@ -79973,6 +79981,28 @@ MonoBehaviour:
   startPosition: {fileID: 1018844508}
   endPosition: {fileID: 1870036148}
   moveSpeed: 10
+--- !u!68 &1870509860
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870509857}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -3.8269653, y: 0.3501587}
+  - {x: 3.80365, y: 0.36187744}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1001 &1870612570
 PrefabInstance:
   m_ObjectHideFlags: 0
