@@ -98,11 +98,11 @@ Megan: Now that I'm thinking about it, we could include other animals too as cus
 Richard: Um, why are the fish pixel art? #line:R58
 Megan: I guess we never did talk about art style... #line:M59
 Caroline: I just finished this background drawing we can use. The fish can come from the stream in the background. #line:C60
-<<art bgBakery>>
+<<art BackgroundBakery>>
 Peter: Caroline, this looks really nice. Let's use it. #line:P61
 Ben: I'm really digging this. The pinks in the background would match perfectly with a strawberry farm for the bakery. #line:B62
 Megan: Maybe part of the game is harvesting the strawberries? I can add farm tools! #line:M63
-<<art farmtools>>
+<<art Farmtools>>
 Emily: I GOT IT! An open-ended country-life RPG about inheriting your grandfather's old farm plot. Armed with hand-me down tools and a few coins- #line:E64
 Peter: You mean <b>Stardew Valley</b>? #line:P65
 Emily: Oh, yeah. That <i>does</i> kind of remind me of Stardew Valley. #line:E66
@@ -129,7 +129,7 @@ Richard: So now we're just doing a horror game? #line:R81
 <<style horrorScary>>
 Megan: It could be a haunted bakery? So we can still keep the same art assets? #line:M82
 Caroline: I can draw a spooky background. #line:C83
-<<art bgDarkClassroom>>
+<<art BackgroundDarkClassroom>>
 Emily: I can write a super scary story. I'm thinking unrequited love between rabbits = a murder spree? #line:E84
 Peter: At this point, I'm not even going to interject. Do whatever you're going to do, Emily. #line:P85
 Richard: What's even the core gameplay loop of this idea? The mechanics? Anyone? #line:R86
@@ -148,7 +148,7 @@ Emily: What about a platformer? #line:E95
 Everyone: NO EMILY/THAT'S THE WORST IDEA YOU'VE HAD/I HATE THAT #line:Ev96
 Emily: It was just a suggestion... #line:E97
 Caroline: The game can have jumpscares! People love that in horror games, right? #line:C98
-<<art bgJumpscare>>
+<<art BackgroundJumpscare>>
 Richard: Sure, but the gameplay? #line:R99
 Julia: Buddy is here! Do you guys want to see my dog? #line:J100
 
@@ -163,8 +163,8 @@ Julia: Buddy is here! Do you guys want to see my dog? #line:J100
     Megan: Right, the game. #line:M108
 
 Julia: I did draw some knives we could use for this idea.  #line:J109
-<<art knife1>>
-<<art knife2>>
+<<art Knife1>>
+<<art Knife2>>
 Megan: You know what? This is really coming together. #line:M110
 Peter: If we can pull this off, can you imagine how impressive we'll be? #line:P111
 Caroline: Maybe Finji, or Netflix, or Annapurna will see this and want to publish our next game! #line:C112
@@ -194,11 +194,11 @@ Emily: Visual novel! #line:E129
 Richard: We've already spent all of this time making art assets for this rabbit bakery murder horror game though. #line:R130
 Emily: It could be a love story between killer rabbits trying to reform themselves? #line:E131
 Caroline: Bunny girls! I already know exactly the design we could use. #line:C132
-<<art bunnygirl>>
+<<art BunnyGirl>>
 Ben: I am getting some musical inspiration... #line:B133
 <<music songVN>>
 Caroline: I <i>could</i> make a classroom background... #line:C134
-<<art bgVN>>
+<<art BackgroundVN>>
 Richard: *sighs* I <i>guess</i> this would make it easier on the programmers... #line:R135
 Peter: I concur. #line:P136
 Emily: What if we subverted the typical visual novel tropes? What if our game initially seemed like your typical dating sim set in a literature club but then, when one of the girls commits suicide, the player has to restart the game? #line:E137
@@ -218,9 +218,9 @@ Richard: What tags are we even going to add to our game on itch.io? Visual novel
 Emily: What if we made it co-op? #line:E148
 Richard: But it's a visual novel! How would that even work? #line:R149
 Caroline: Since it has murder, what about a fan that becomes a bunch of daggers when you open it? Like a hidden weapon? #line:C150
-<<art fan>>
+<<art Fan>>
 Richard: You know what? Sure. And let's add chess while we're at it too. #line:R151
-<<art chess>>
+<<art Chess>>
 Megan: That is a great idea. We could appeal to the Queen's Gambit community. #line:M152
 Richard: I was being sarcastic. #line:R153
 Emily: Okay, I'm wrapping up writing the story. Does anyone want to voice act? #line:E154
