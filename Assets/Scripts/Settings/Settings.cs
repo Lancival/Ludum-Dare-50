@@ -9,6 +9,17 @@ public static class Settings
 
     // Text
     public static Setting<bool> Subtitles = new BoolSetting("Subtitles", true);
-    //public static Setting<float> TextDelay = new FloatSetting("Text Delay", 0.05f);
-    //public static Setting<string> Font = new StringSetting("Font", "Arial");
+    
+    // Gameplay State
+    public static event System.Action<bool> onPause;
+    private static bool _paused = false;
+    public static bool paused
+    {
+        get => _paused;
+        set
+        {
+            _paused = value;
+            onPause.Invoke(value);
+        }
+    }
 }

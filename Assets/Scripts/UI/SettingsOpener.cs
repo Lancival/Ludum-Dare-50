@@ -27,5 +27,6 @@ public class SettingsOpener : MonoBehaviour
         cg.interactable = true;
         cg.blocksRaycasts = true;
         playerInput.enabled = false;
+        Settings.paused = true;
     }
 }
