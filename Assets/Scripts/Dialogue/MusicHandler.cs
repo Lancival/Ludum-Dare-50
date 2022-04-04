@@ -22,6 +22,7 @@ public class MusicHandler : MonoBehaviour
         {
             Debug.LogWarning("Another MusicHandler already exists.");
             Destroy(this);
+            return;
         }
         instance = this;
         sources = GetComponents<AudioSource>();

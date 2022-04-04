@@ -23,14 +23,16 @@ public class AudioSettingsHandler : MonoBehaviour
             Debug.LogWarning("Another instance of AudioSettingsHandler already exists.");
             Destroy(this);
         }
+        else
+        {
+            instance = this;
 
-        instance = this;
-
-        // Subscribe to audio change events
-        MasterVolume.onChange += UpdateMasterVolume;
-        MusicVolume.onChange += UpdateMusicVolume;
-        SfxVolume.onChange += UpdateSfxVolume;
-        VoiceVolume.onChange += UpdateVoiceVolume;
+            // Subscribe to audio change events
+            MasterVolume.onChange += UpdateMasterVolume;
+            MusicVolume.onChange += UpdateMusicVolume;
+            SfxVolume.onChange += UpdateSfxVolume;
+            VoiceVolume.onChange += UpdateVoiceVolume;
+        }
     }
 
     // Update AudioMixerGroups at the start of the scene

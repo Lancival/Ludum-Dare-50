@@ -15,6 +15,7 @@ public class ArtHandler : MonoBehaviour
         {
             Debug.LogWarning("Another ArtHandler already exists.");
             Destroy(this);
+            return;
         }
         instance = this;
     }

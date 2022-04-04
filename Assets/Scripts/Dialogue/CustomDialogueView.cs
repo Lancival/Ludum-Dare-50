@@ -41,6 +41,7 @@ public class CustomDialogueView : DialogueViewBase
         {
             Debug.LogWarning("Another CustomDialogueView component already exists.");
             Destroy(this);
+            return;
         }
 
         // Subscribe to Settings
