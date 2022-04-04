@@ -9,7 +9,6 @@ using Yarn.Unity;
 
 public class CustomDialogueView : DialogueViewBase
 {
-
     [Header("Audio")]
         [Tooltip("AudioSource that should play the voiceovers.")]
             [SerializeField] private AudioSource audioSource;
@@ -42,6 +41,7 @@ public class CustomDialogueView : DialogueViewBase
             Debug.LogWarning("Another CustomDialogueView component already exists.");
             Destroy(this);
         }
+
         _instance = this;
         pendingLines = new Queue<LocalizedLine>();
 
@@ -55,7 +55,7 @@ public class CustomDialogueView : DialogueViewBase
         {
             _instance = null;
             Settings.Subtitles.onChange -= SubtitleVisibilityChange;
-            Settings.onPause += PauseHandler;
+            Settings.onPause -= PauseHandler;
         }
     }
 
