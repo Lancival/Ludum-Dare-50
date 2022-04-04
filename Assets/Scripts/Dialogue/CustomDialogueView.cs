@@ -94,10 +94,9 @@ public class CustomDialogueView : DialogueViewBase
 
     private void PauseHandler(bool paused)
     {
-        Debug.Log(paused);
         if (paused)
             audioSource.Pause();
-        if (!paused)
+        else
             audioSource.UnPause();
     }
 
