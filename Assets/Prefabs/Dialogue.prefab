@@ -1427,7 +1427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 949c6f07d48f04e8fbde5e30a167978e, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   duration: 1
