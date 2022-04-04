@@ -10,6 +10,8 @@ public class PlatformButton : MonoBehaviour
 {
 
     public UnityEvent onFilled;
+    public UnityEvent onLeave;
+    private bool justLeft = false;
 
     private SpriteRenderer spriteRenderer;
     private MaterialPropertyBlock block;
@@ -23,7 +25,7 @@ public class PlatformButton : MonoBehaviour
             _fill = value;
             block.SetFloat("_Fill", _fill);
             spriteRenderer.SetPropertyBlock(block);
-            if (_fill >= 1f)
+            if (_fill >= 1f && !justLeft)
                 onFilled.Invoke();
         }
     }
@@ -40,6 +42,7 @@ public class PlatformButton : MonoBehaviour
         block = new MaterialPropertyBlock();
         spriteRenderer.GetPropertyBlock(block);
         fill = 0f;
+        onLeave.AddListener(() => justLeft = true);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -79,11 +82,14 @@ public class PlatformButton : MonoBehaviour
     {
         if (fill > 0f)
         {
+            onLeave.Invoke();
+
             float startTime = Time.time;
             float oneMinusStartFill = 1f - fill;
             do
             {
                 fill = Mathf.Lerp(1f, 0f, (Time.time - startTime) / duration + oneMinusStartFill);
+                justLeft = false;
                 if (fill <= 0f)
                     break;
                 yield return null;
