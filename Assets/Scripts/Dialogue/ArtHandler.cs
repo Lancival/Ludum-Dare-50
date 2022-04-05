@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using Yarn.Unity;
 
 [DisallowMultipleComponent]
@@ -31,9 +32,7 @@ public class ArtHandler : MonoBehaviour
     private IEnumerator ShowArt(string artName)
     {
         yield return CustomDialogueView.WaitUntilNotRunning();
-        GameObject art = GameObject.Find(artName);
-        art.SetActive(true);
-        StartCoroutine(SpriteFadeIn(art.GetComponent<SpriteRenderer>(), 3f));
+        StartCoroutine(SpriteFadeIn(GameObject.Find(artName)?.GetComponent<Image>(), 3f));
         yield break;
     }
 
@@ -45,24 +44,24 @@ public class ArtHandler : MonoBehaviour
         yield break;
     }
 
-    // Helper function which fades in and out a SpriteRenderer over duration seconds
-    public static IEnumerator SpriteFadeIn(SpriteRenderer renderer, float duration)
+    // Helper function which fades in and out an image over duration seconds
+    public static IEnumerator SpriteFadeIn(Image image, float duration)
     {
-        if (renderer != null)
+        if (image != null)
         {
-            Color color = renderer.color;
+            Color color = image.color;
             color.a = 0f;
             float start = Time.time;
             float elapsed = Time.time - start;
             while (elapsed < duration)
             {
                 color.a = Mathf.Lerp(0f, 1f, elapsed / duration);
-                renderer.color = color;
+                image.color = color;
                 elapsed = Time.time - start;
                 yield return null;
             }
             color.a = 1f;
-            renderer.color = color;
+            image.color = color;
             yield break;
         }
     }
