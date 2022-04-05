@@ -7,7 +7,7 @@ Ludum Dare 50 has just started. You hop in a Discord call with your friends to f
 
 ## Controls
 * A & D keys, or arrow keys, to move left and right
-* Spacebar, W, or up arrow to jump.
+* Spacebar, W, or up arrow to jump. Hold for longer jumps.
 * O to open the options/settings for the game.
 * This game has narrative choices, and you jump to a platform that has the response you want to pick.
 
