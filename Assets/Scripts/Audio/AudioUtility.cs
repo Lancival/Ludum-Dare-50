@@ -7,7 +7,7 @@ public static class AudioUtility
 
     public static float VolumeToDecibels(float volume)
     {
-        return Mathf.Log10(Mathf.Clamp(volume, 0.00001f, 1)) * 20;
+        return Mathf.Log10(Mathf.Clamp(volume, 0.00001f, 2f)) * 20;
     }
 
     public static float DecibelsToVolume(float decibels)

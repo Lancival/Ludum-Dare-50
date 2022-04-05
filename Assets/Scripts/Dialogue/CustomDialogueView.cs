@@ -115,6 +115,8 @@ public class CustomDialogueView : DialogueViewBase
             // Update text boxes
             dialogueBox.text = dialogueLine.TextWithoutCharacterName.Text;
             nameBox.text = dialogueLine.CharacterName;
+            if (dialogueLine.CharacterName == "Richard")
+                Settings.VoiceVolume.Value += 0.3f;
             IconManager.instance.Speak(dialogueLine.CharacterName);
 
             // Play audio
@@ -135,6 +137,8 @@ public class CustomDialogueView : DialogueViewBase
                     yield return new WaitForSeconds(noAudioDelay);
                 }
             }
+            if (dialogueLine.CharacterName == "Richard")
+                Settings.VoiceVolume.Value -= 0.3f;
         }
 
         // No more pending lines
