@@ -78,7 +78,7 @@ Peter: What do you think? #line:P31
 Peter: Uh, I don't really know. #line:P42
 Caroline: ...I just wanted to draw cute rabbits. #line:C43
 Richard: To be honest, I'm not sure I want to make another cooking game. After all, we did make A Taste of the Past for Ludum Dare 48, which is now free on Steam with a 96% positive rating. #line:R44
-<<art atotp>>
+<<art ATOTP>>
 Emily: I GOT IT! What if we made a game where players create and break various kinds of blocks in a three dimensional world? A sandbox game with procedural generation where you can kill monsters too? #line:E45
 Peter: Emily, you mean <b>Minecraft</b>? #line:P46
 Emily: Yes, a game just like that! #line:E47
