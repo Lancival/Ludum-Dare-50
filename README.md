@@ -5,7 +5,7 @@ A game made by some of the members of Sondering Studio for Ludum Dare 50 in 72 h
 Ludum Dare 50 has just started. You hop in a Discord call with your friends to figure out what game you're going to make. At first, your game has promise, but it soon derails as your team members cannot agree on what game to make.
 
 ## Controls
-* Press and hold <b>A</b> & <b>D</b> keys, or <b>Left</b> and <b>Right</b> arrow keys, to move left and right.
+* Press and hold <b>A</b> and <b>D</b> keys, or <b>Left</b> and <b>Right</b> arrow keys, to move left and right.
 * Press <b>Spacebar</b>, <b>W</b>, or <b>Up</b> arrow keys to jump. Hold for longer jumps.
 * Press <b>O</b> to open the options/settings.
 * Jump onto platforms with words to select it/pick that response.
