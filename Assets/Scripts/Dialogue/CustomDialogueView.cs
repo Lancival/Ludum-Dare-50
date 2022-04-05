@@ -143,6 +143,7 @@ public class CustomDialogueView : DialogueViewBase
 
         // No more pending lines
         running = null;
+        IconManager.instance.Deactivate();
         fade.FadeOut();
         yield break;
     }

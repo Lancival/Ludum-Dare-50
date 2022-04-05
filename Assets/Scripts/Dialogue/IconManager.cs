@@ -44,10 +44,15 @@ public class IconManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    public void Deactivate()
+    {
+        foreach(GameObject ring in rings)
+            ring.SetActive(false);
+    }
+
     public void Speak(string speakerName)
     {
-        foreach (GameObject ring in rings)
-            ring.SetActive(false);
+        Deactivate();
 
         if (speakerName == "Everyone")
         {
