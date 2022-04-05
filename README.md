@@ -19,4 +19,4 @@ Spoilers for Doki Doki Literature Club are in this game.
 * Programming: Richard Cheng, Peter Sutarjo
 * Art: Julia Lee, Caroline Wang, Tiffany Shen, Megan Xu
 * Voice Acting: Peter Sutarjo, Richard Cheng, Emily Pitcher, Megan Xu, Caroline Wang, Ben Young, Julia Lee
-* Special thanks to Secret Lab for developing Yarn Spinner, the basis for the dialogue and voice over system for our game.
+* Special thanks to Secret Lab for developing [Yarn Spinner](https://yarnspinner.dev/), the basis for our dialogue and voice over system.
