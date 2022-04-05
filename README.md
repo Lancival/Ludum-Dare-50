@@ -1,5 +1,5 @@
 # Delaying Ludum Dare
-A game made by some of the members of Sondering Studio for Ludum Dare 50 in 72 hours. View the submission at https://ldjam.com/events/ludum-dare/50/delaying-ludum-dare, or play now at https://volcanogirl.itch.io/delaying-ludum-dare!
+A game made by some of the members of Sondering Studio for Ludum Dare 50 in 72 hours. View the submission on the [Ludum Dare website](https://ldjam.com/events/ludum-dare/50/delaying-ludum-dare), or play now on [itch.io](https://volcanogirl.itch.io/delaying-ludum-dare)!
 
 ## Premise
 Ludum Dare 50 has just started. You hop in a Discord call with your friends to figure out what game you're going to make. At first, your game has promise, but it soon derails as your team members cannot agree on what game to make.
