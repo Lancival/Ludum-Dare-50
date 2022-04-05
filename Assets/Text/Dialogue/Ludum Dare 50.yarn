@@ -260,4 +260,5 @@ Emily: Ready? #line:E174
 Caroline: Yay! #line:C179
 Megan: Finally! I wasn't sure if we would finish. #line:M180
 Peter: Let's get to rating. #line:P181
+<<customWait 0>>
 ===
