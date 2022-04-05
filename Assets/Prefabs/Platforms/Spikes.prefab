@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2559997646173276612}
   - component: {fileID: 2559997646173276610}
   - component: {fileID: 2559997646173276613}
+  - component: {fileID: 2992431460523271808}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Respawn
@@ -93,7 +94,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -114,6 +115,27 @@ PolygonCollider2D:
       - {x: 0.25, y: -0.02}
       - {x: 0.25, y: 0.02}
       - {x: -0.22999999, y: 0.5}
+--- !u!50 &2992431460523271808
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2559997646173276615}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 51d9a2d21a3f448429f340f084bedc69, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2559997646823009779
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +147,7 @@ GameObject:
   - component: {fileID: 2559997646823009776}
   - component: {fileID: 2559997646823009774}
   - component: {fileID: 2559997646823009777}
+  - component: {fileID: 3239808241679773158}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Respawn
@@ -207,7 +230,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -228,6 +251,27 @@ PolygonCollider2D:
       - {x: 0.25, y: -0.02}
       - {x: 0.25, y: 0.02}
       - {x: -0.22999999, y: 0.5}
+--- !u!50 &3239808241679773158
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2559997646823009779}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 51d9a2d21a3f448429f340f084bedc69, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &3060864938959105591
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +283,7 @@ GameObject:
   - component: {fileID: 2425644163879233025}
   - component: {fileID: 758269298108646873}
   - component: {fileID: 5794172735857154053}
+  - component: {fileID: 5550180171689074219}
   m_Layer: 0
   m_Name: Spike (1)
   m_TagString: Respawn
@@ -320,8 +365,8 @@ PolygonCollider2D:
   m_GameObject: {fileID: 3060864938959105591}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_Material: {fileID: 6200000, guid: 51d9a2d21a3f448429f340f084bedc69, type: 2}
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -342,6 +387,27 @@ PolygonCollider2D:
       - {x: 0.25, y: -0.02}
       - {x: 0.25, y: 0.02}
       - {x: -0.22999999, y: 0.5}
+--- !u!50 &5550180171689074219
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3060864938959105591}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &5380111804811145656
 GameObject:
   m_ObjectHideFlags: 0
