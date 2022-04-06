@@ -10,7 +10,7 @@ public class Elevator : MonoBehaviour
 
     private bool startElevator = false;
 
-    void FixedUpdate()
+    void Update()
     {
         if (startElevator)
             MoveToEndPoint();
@@ -32,11 +32,13 @@ public class Elevator : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        startElevator = true;    
+        startElevator = true;
+        Debug.Log("Starting elevator!");    
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         startElevator = false;
+        Debug.Log("Elevator moving down!");
     }
 }
