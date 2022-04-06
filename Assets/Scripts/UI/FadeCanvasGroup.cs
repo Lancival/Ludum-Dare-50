@@ -21,12 +21,12 @@ public class FadeCanvasGroup : MonoBehaviour
         canvasGroup.gameObject.SetActive(true);
         canvasGroup.alpha = startAlpha;
 
-        float startTime = Time.time;
+        float startTime = Time.unscaledTime;
         float progress = 0;
 
         while (true)
         {
-            progress = (Time.time - startTime) / duration;
+            progress = (Time.unscaledTime - startTime) / duration;
             if (progress < 1)
             {
                 canvasGroup.alpha = Mathf.Lerp(startAlpha, endAlpha, progress);

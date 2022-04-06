@@ -30,4 +30,7 @@ public class SettingsScreenHandler : MonoBehaviour
     public void ChangeSfxVolume(float volume) => Settings.SfxVolume.Value = volume;
     public void ChangeSubtitles(bool enabled) => Settings.Subtitles.Value = enabled;
     public void ChangePause(bool paused) => Settings.paused = paused;
+
+    public void PauseTime() => Time.timeScale = 0f;
+    public void UnPauseTime() => Time.timeScale = 1f;
 }
