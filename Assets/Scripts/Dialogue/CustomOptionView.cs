@@ -15,6 +15,7 @@ public class CustomOptionView : MonoBehaviour
         [Tooltip("Event which is invoked when this option is initialized.")]
             public UnityEvent onInitialize;
 
+    private bool initialized = false;
 
     public void Awake()
     {
@@ -22,6 +23,7 @@ public class CustomOptionView : MonoBehaviour
             Debug.Log(string.Format("{0} is missing a TextMeshPro text component!", gameObject.name));
         if (registerOnStart)
             Register();
+        onInitialize.AddListener(() => initialized = true);
     }
     public void OnDestroy() => UnRegister();
 
@@ -38,7 +40,11 @@ public class CustomOptionView : MonoBehaviour
     }
 
     public void UpdateText(string text) => textMesh.text = text;
-    public void InvokeOption() => onOptionChosen.Invoke();
+    public void InvokeOption()
+    {
+        if (initialized)
+            onOptionChosen.Invoke();
+    }
 
     public void Clear()
     {
