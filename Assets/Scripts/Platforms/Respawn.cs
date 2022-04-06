@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 {
-    private GameObject[] respawnPoints;
+    // This is very bad, but i'm lazy so you have to add checkpoints manually to this list
+    [SerializeField] private GameObject[] respawnPoints;
 
     private GameObject currentRespawnPoint;
     private Dictionary<GameObject, bool> dict;
     void Awake()
     {
         dict = new Dictionary<GameObject, bool>();
-        respawnPoints = GameObject.FindGameObjectsWithTag("Checkpoint");
-        if (respawnPoints == null)
-        {
-            Debug.LogWarning("No respawn checkpoints assigned");
-        }
-
         // Register object in dictionary to see if we've encountered it before
         foreach (GameObject obj in respawnPoints)
         {
