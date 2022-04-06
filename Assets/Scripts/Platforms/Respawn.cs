@@ -5,6 +5,8 @@ using UnityEngine;
 public class Respawn : MonoBehaviour
 {
     private GameObject[] respawnPoints;
+
+    private GameObject currentRespawnPoint;
     private Dictionary<GameObject, bool> dict;
     void Awake()
     {
@@ -26,27 +28,17 @@ public class Respawn : MonoBehaviour
     {
         if (other.tag == "Respawn")
         {
-            float closestDistance = float.MaxValue;
-            Vector3 closestPosition = new Vector3(0,0,0);
-            foreach (GameObject obj in respawnPoints)
-            {
-                if (dict[obj])
-                {
-                    float distance = Vector3.Distance(obj.transform.position, this.gameObject.transform.position);
-                    if (distance < closestDistance)
-                    {
-                        closestDistance = distance;
-                        closestPosition = obj.transform.position;
-                    }
-                }
-            }
-
             // Reset transform to the closest distance checkpoint
-            this.gameObject.transform.position = closestPosition;
+            this.gameObject.transform.position = currentRespawnPoint.transform.position;
         }
         if (other.tag == "Checkpoint")
-        {
-            dict[other.gameObject] = true;
+        {   
+            // if we haven't seen it before
+            if (!dict[other.gameObject])
+            {
+                dict[other.gameObject] = true;
+                currentRespawnPoint = other.gameObject;
+            }
         }    
     }
 }
