@@ -19,7 +19,7 @@ public class CustomDialogueView : DialogueViewBase
         [Tooltip("TextMeshPro text component that should print the dialogue line.")]
             public TextMeshProUGUI dialogueBox;
         [Tooltip("TextMeshPro text component that should print the character name.")]
-            [SerializeField] private TextMeshProUGUI nameBox;
+            public TextMeshProUGUI nameBox;
         [Tooltip("FadeCanvasGroup component that should fade in and out.")]
             [SerializeField] private FadeCanvasGroup fade;
     

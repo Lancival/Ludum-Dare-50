@@ -10,7 +10,7 @@ public class StyleHandler : MonoBehaviour
     private static StyleHandler instance = null;
 
     [SerializeField] private TMP_FontAsset[] fonts;
-    [SerializeField] private Sprite[] sprites;
+    //[SerializeField] private Sprite[] sprites;
 
     void Awake()
     {
@@ -26,9 +26,7 @@ public class StyleHandler : MonoBehaviour
     void OnDestroy()
     {
         if (instance == this)
-        {
             instance = null;
-        }
     }
 
     private void SwitchStyles(string style)
@@ -49,19 +47,20 @@ public class StyleHandler : MonoBehaviour
         }
 
         TMP_FontAsset font = fonts[index];
-        Sprite sprite = sprites[index];
+        //Sprite sprite = sprites[index];
 
         if (font != null)
         {
             CustomDialogueView.instance.dialogueBox.font = font;
+            CustomDialogueView.instance.nameBox.font = font;
             foreach (CustomOptionView view in CustomDialogueView.instance.optionViews)
                 view.textMesh.font = font;
         }
-        if (sprite != null)
+        /*if (sprite != null)
         {
             foreach (CustomOptionView view in CustomDialogueView.instance.optionViews)
                 view.SwitchSprite(sprite);
-        }
+        }*/
     }
 
     [YarnCommand("style")]
